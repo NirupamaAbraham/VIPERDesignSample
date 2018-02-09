@@ -99,6 +99,7 @@
 		B1060F3F202C846200BF7259 /* VIPERDesignSample */ = {
 			isa = PBXGroup;
 			children = (
+				B1555469202DA97B00C1F7C0 /* Modules */,
 				B1060F40202C846200BF7259 /* AppDelegate.swift */,
 				B1060F42202C846200BF7259 /* ViewController.swift */,
 				B1060F44202C846200BF7259 /* Main.storyboard */,
@@ -126,6 +127,13 @@
 				B1060F65202C846300BF7259 /* Info.plist */,
 			);
 			path = VIPERDesignSampleUITests;
+			sourceTree = "<group>";
+		};
+		B1555469202DA97B00C1F7C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
