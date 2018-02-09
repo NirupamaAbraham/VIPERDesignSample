@@ -99,6 +99,9 @@
 		B1060F3F202C846200BF7259 /* VIPERDesignSample */ = {
 			isa = PBXGroup;
 			children = (
+				B155544E202DA1D600C1F7C0 /* DataLayer */,
+				B155544D202DA1B500C1F7C0 /* NetworkLayer */,
+				B155544C202DA17700C1F7C0 /* Modules */,
 				B1060F40202C846200BF7259 /* AppDelegate.swift */,
 				B1060F42202C846200BF7259 /* ViewController.swift */,
 				B1060F44202C846200BF7259 /* Main.storyboard */,
@@ -126,6 +129,219 @@
 				B1060F65202C846300BF7259 /* Info.plist */,
 			);
 			path = VIPERDesignSampleUITests;
+			sourceTree = "<group>";
+		};
+		B155544C202DA17700C1F7C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B1555452202DA20600C1F7C0 /* Claim */,
+				B1555451202DA1F400C1F7C0 /* Appointment */,
+				B1555450202DA1EE00C1F7C0 /* Activity */,
+				B155544F202DA1E800C1F7C0 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B155544D202DA1B500C1F7C0 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		B155544E202DA1D600C1F7C0 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		B155544F202DA1E800C1F7C0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B1555459202DA61600C1F7C0 /* Protocols */,
+				B1555458202DA5C700C1F7C0 /* View */,
+				B1555457202DA2B200C1F7C0 /* Presenter */,
+				B1555456202DA2AB00C1F7C0 /* Interactor */,
+				B1555455202DA29D00C1F7C0 /* Router */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B1555450202DA1EE00C1F7C0 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				B155545E202DA65100C1F7C0 /* Protocols */,
+				B155545D202DA64B00C1F7C0 /* View */,
+				B155545C202DA64400C1F7C0 /* Presenter */,
+				B155545B202DA63B00C1F7C0 /* Interactor */,
+				B155545A202DA63000C1F7C0 /* Router */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		B1555451202DA1F400C1F7C0 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				B1555463202DA67700C1F7C0 /* Protocols */,
+				B1555462202DA67200C1F7C0 /* View */,
+				B1555461202DA66A00C1F7C0 /* Presenter */,
+				B1555460202DA66100C1F7C0 /* Interactor */,
+				B155545F202DA65900C1F7C0 /* Router */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		B1555452202DA20600C1F7C0 /* Claim */ = {
+			isa = PBXGroup;
+			children = (
+				B1555468202DA69F00C1F7C0 /* Protocols */,
+				B1555467202DA69A00C1F7C0 /* View */,
+				B1555466202DA69300C1F7C0 /* Presenter */,
+				B1555465202DA68D00C1F7C0 /* Interactor */,
+				B1555464202DA68000C1F7C0 /* Router */,
+			);
+			path = Claim;
+			sourceTree = "<group>";
+		};
+		B1555455202DA29D00C1F7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B1555456202DA2AB00C1F7C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B1555457202DA2B200C1F7C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B1555458202DA5C700C1F7C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1555459202DA61600C1F7C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B155545A202DA63000C1F7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B155545B202DA63B00C1F7C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B155545C202DA64400C1F7C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B155545D202DA64B00C1F7C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B155545E202DA65100C1F7C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B155545F202DA65900C1F7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B1555460202DA66100C1F7C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B1555461202DA66A00C1F7C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B1555462202DA67200C1F7C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1555463202DA67700C1F7C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B1555464202DA68000C1F7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B1555465202DA68D00C1F7C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B1555466202DA69300C1F7C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B1555467202DA69A00C1F7C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1555468202DA69F00C1F7C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
