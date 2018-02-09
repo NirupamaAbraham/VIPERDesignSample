@@ -16,6 +16,26 @@
 		B1060F59202C846300BF7259 /* VIPERDesignSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F58202C846300BF7259 /* VIPERDesignSampleTests.swift */; };
 		B1060F64202C846300BF7259 /* VIPERDesignSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F63202C846300BF7259 /* VIPERDesignSampleUITests.swift */; };
 		B155546C202DA9F700C1F7C0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155546B202DA9F700C1F7C0 /* Request.swift */; };
+		B1555478202DAB0000C1F7C0 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555477202DAB0000C1F7C0 /* LoginProtocols.swift */; };
+		B155547A202DAB1200C1F7C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555479202DAB1200C1F7C0 /* LoginViewController.swift */; };
+		B155547C202DAB3800C1F7C0 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155547B202DAB3800C1F7C0 /* LoginPresenter.swift */; };
+		B155547E202DAB4800C1F7C0 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155547D202DAB4800C1F7C0 /* LoginInteractor.swift */; };
+		B1555480202DAB5400C1F7C0 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155547F202DAB5400C1F7C0 /* LoginRouter.swift */; };
+		B1555487202DABAD00C1F7C0 /* ActivityProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555486202DABAD00C1F7C0 /* ActivityProtocols.swift */; };
+		B1555489202DABBC00C1F7C0 /* ActivityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555488202DABBC00C1F7C0 /* ActivityPresenter.swift */; };
+		B155548B202DABC900C1F7C0 /* ActivityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155548A202DABC900C1F7C0 /* ActivityInteractor.swift */; };
+		B155548D202DABDB00C1F7C0 /* ActivityRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155548C202DABDB00C1F7C0 /* ActivityRouter.swift */; };
+		B155548F202DABEF00C1F7C0 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155548E202DABEF00C1F7C0 /* ActivityViewController.swift */; };
+		B1555496202DAC3100C1F7C0 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555495202DAC3100C1F7C0 /* AppointmentViewController.swift */; };
+		B1555498202DAC4700C1F7C0 /* AppointmentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555497202DAC4700C1F7C0 /* AppointmentProtocols.swift */; };
+		B155549A202DAC5900C1F7C0 /* AppointmentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555499202DAC5900C1F7C0 /* AppointmentPresenter.swift */; };
+		B155549C202DAC6600C1F7C0 /* AppointmentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155549B202DAC6600C1F7C0 /* AppointmentInteractor.swift */; };
+		B155549E202DAC7000C1F7C0 /* AppointmentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155549D202DAC7000C1F7C0 /* AppointmentRouter.swift */; };
+		B15554A5202DACCB00C1F7C0 /* ClaimProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554A4202DACCB00C1F7C0 /* ClaimProtocols.swift */; };
+		B15554A7202DACD600C1F7C0 /* ClaimPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554A6202DACD600C1F7C0 /* ClaimPresenter.swift */; };
+		B15554A9202DACE300C1F7C0 /* ClaimInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554A8202DACE300C1F7C0 /* ClaimInteractor.swift */; };
+		B15554AB202DACEE00C1F7C0 /* ClaimRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554AA202DACEE00C1F7C0 /* ClaimRouter.swift */; };
+		B15554AD202DACF800C1F7C0 /* ClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554AC202DACF800C1F7C0 /* ClaimViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,26 @@
 		B1060F63202C846300BF7259 /* VIPERDesignSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERDesignSampleUITests.swift; sourceTree = "<group>"; };
 		B1060F65202C846300BF7259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B155546B202DA9F700C1F7C0 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B1555477202DAB0000C1F7C0 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		B1555479202DAB1200C1F7C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B155547B202DAB3800C1F7C0 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		B155547D202DAB4800C1F7C0 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		B155547F202DAB5400C1F7C0 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		B1555486202DABAD00C1F7C0 /* ActivityProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityProtocols.swift; sourceTree = "<group>"; };
+		B1555488202DABBC00C1F7C0 /* ActivityPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPresenter.swift; sourceTree = "<group>"; };
+		B155548A202DABC900C1F7C0 /* ActivityInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInteractor.swift; sourceTree = "<group>"; };
+		B155548C202DABDB00C1F7C0 /* ActivityRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRouter.swift; sourceTree = "<group>"; };
+		B155548E202DABEF00C1F7C0 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		B1555495202DAC3100C1F7C0 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		B1555497202DAC4700C1F7C0 /* AppointmentProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentProtocols.swift; sourceTree = "<group>"; };
+		B1555499202DAC5900C1F7C0 /* AppointmentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentPresenter.swift; sourceTree = "<group>"; };
+		B155549B202DAC6600C1F7C0 /* AppointmentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentInteractor.swift; sourceTree = "<group>"; };
+		B155549D202DAC7000C1F7C0 /* AppointmentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRouter.swift; sourceTree = "<group>"; };
+		B15554A4202DACCB00C1F7C0 /* ClaimProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimProtocols.swift; sourceTree = "<group>"; };
+		B15554A6202DACD600C1F7C0 /* ClaimPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimPresenter.swift; sourceTree = "<group>"; };
+		B15554A8202DACE300C1F7C0 /* ClaimInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimInteractor.swift; sourceTree = "<group>"; };
+		B15554AA202DACEE00C1F7C0 /* ClaimRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimRouter.swift; sourceTree = "<group>"; };
+		B15554AC202DACF800C1F7C0 /* ClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +175,10 @@
 		B1555469202DA97B00C1F7C0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B1555470202DAA7400C1F7C0 /* Login */,
+				B155546F202DAA6A00C1F7C0 /* Activity */,
+				B155546E202DAA5F00C1F7C0 /* Appointment */,
+				B155546D202DAA5600C1F7C0 /* Claim */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -145,6 +189,214 @@
 				B155546B202DA9F700C1F7C0 /* Request.swift */,
 			);
 			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		B155546D202DAA5600C1F7C0 /* Claim */ = {
+			isa = PBXGroup;
+			children = (
+				B15554A3202DACB800C1F7C0 /* Protocols */,
+				B15554A2202DACB000C1F7C0 /* View */,
+				B15554A1202DACAA00C1F7C0 /* Presenter */,
+				B15554A0202DACA100C1F7C0 /* Interactor */,
+				B155549F202DAC8900C1F7C0 /* Router */,
+			);
+			path = Claim;
+			sourceTree = "<group>";
+		};
+		B155546E202DAA5F00C1F7C0 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				B1555494202DAC1900C1F7C0 /* Protocols */,
+				B1555493202DAC1100C1F7C0 /* View */,
+				B1555492202DAC0B00C1F7C0 /* Presenter */,
+				B1555491202DAC0200C1F7C0 /* Interactor */,
+				B1555490202DABF500C1F7C0 /* Router */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		B155546F202DAA6A00C1F7C0 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				B1555485202DAB8300C1F7C0 /* Protocols */,
+				B1555484202DAB7E00C1F7C0 /* View */,
+				B1555483202DAB7700C1F7C0 /* Presenter */,
+				B1555482202DAB6E00C1F7C0 /* Interactor */,
+				B1555481202DAB6400C1F7C0 /* Router */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		B1555470202DAA7400C1F7C0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B1555476202DAAB500C1F7C0 /* Protocols */,
+				B1555475202DAAA800C1F7C0 /* View */,
+				B1555474202DAAA000C1F7C0 /* Presenter */,
+				B1555473202DAA9700C1F7C0 /* Interactor */,
+				B1555472202DAA8B00C1F7C0 /* Router */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B1555472202DAA8B00C1F7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B155547F202DAB5400C1F7C0 /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B1555473202DAA9700C1F7C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B155547D202DAB4800C1F7C0 /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B1555474202DAAA000C1F7C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B155547B202DAB3800C1F7C0 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B1555475202DAAA800C1F7C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1555479202DAB1200C1F7C0 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1555476202DAAB500C1F7C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B1555477202DAB0000C1F7C0 /* LoginProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B1555481202DAB6400C1F7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B155548C202DABDB00C1F7C0 /* ActivityRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B1555482202DAB6E00C1F7C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B155548A202DABC900C1F7C0 /* ActivityInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B1555483202DAB7700C1F7C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B1555488202DABBC00C1F7C0 /* ActivityPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B1555484202DAB7E00C1F7C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B155548E202DABEF00C1F7C0 /* ActivityViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1555485202DAB8300C1F7C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B1555486202DABAD00C1F7C0 /* ActivityProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B1555490202DABF500C1F7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B155549D202DAC7000C1F7C0 /* AppointmentRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B1555491202DAC0200C1F7C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B155549B202DAC6600C1F7C0 /* AppointmentInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B1555492202DAC0B00C1F7C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B1555499202DAC5900C1F7C0 /* AppointmentPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B1555493202DAC1100C1F7C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1555495202DAC3100C1F7C0 /* AppointmentViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1555494202DAC1900C1F7C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B1555497202DAC4700C1F7C0 /* AppointmentProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B155549F202DAC8900C1F7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B15554AA202DACEE00C1F7C0 /* ClaimRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B15554A0202DACA100C1F7C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B15554A8202DACE300C1F7C0 /* ClaimInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B15554A1202DACAA00C1F7C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B15554A6202DACD600C1F7C0 /* ClaimPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B15554A2202DACB000C1F7C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B15554AC202DACF800C1F7C0 /* ClaimViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B15554A3202DACB800C1F7C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B15554A4202DACCB00C1F7C0 /* ClaimProtocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +533,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B155549C202DAC6600C1F7C0 /* AppointmentInteractor.swift in Sources */,
+				B155549A202DAC5900C1F7C0 /* AppointmentPresenter.swift in Sources */,
+				B1555487202DABAD00C1F7C0 /* ActivityProtocols.swift in Sources */,
+				B155548D202DABDB00C1F7C0 /* ActivityRouter.swift in Sources */,
+				B155547A202DAB1200C1F7C0 /* LoginViewController.swift in Sources */,
+				B1555496202DAC3100C1F7C0 /* AppointmentViewController.swift in Sources */,
+				B15554A5202DACCB00C1F7C0 /* ClaimProtocols.swift in Sources */,
+				B15554AB202DACEE00C1F7C0 /* ClaimRouter.swift in Sources */,
 				B1060F43202C846200BF7259 /* ViewController.swift in Sources */,
+				B15554AD202DACF800C1F7C0 /* ClaimViewController.swift in Sources */,
+				B155547C202DAB3800C1F7C0 /* LoginPresenter.swift in Sources */,
+				B1555478202DAB0000C1F7C0 /* LoginProtocols.swift in Sources */,
+				B155547E202DAB4800C1F7C0 /* LoginInteractor.swift in Sources */,
+				B15554A9202DACE300C1F7C0 /* ClaimInteractor.swift in Sources */,
+				B1555489202DABBC00C1F7C0 /* ActivityPresenter.swift in Sources */,
+				B15554A7202DACD600C1F7C0 /* ClaimPresenter.swift in Sources */,
+				B1555498202DAC4700C1F7C0 /* AppointmentProtocols.swift in Sources */,
+				B1555480202DAB5400C1F7C0 /* LoginRouter.swift in Sources */,
 				B155546C202DA9F700C1F7C0 /* Request.swift in Sources */,
 				B1060F49202C846200BF7259 /* VIPERDesignSample.xcdatamodeld in Sources */,
+				B155548F202DABEF00C1F7C0 /* ActivityViewController.swift in Sources */,
 				B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */,
+				B155548B202DABC900C1F7C0 /* ActivityInteractor.swift in Sources */,
+				B155549E202DAC7000C1F7C0 /* AppointmentRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
