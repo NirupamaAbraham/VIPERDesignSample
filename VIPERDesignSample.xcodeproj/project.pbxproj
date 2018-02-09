@@ -15,6 +15,7 @@
 		B1060F4E202C846200BF7259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1060F4C202C846200BF7259 /* LaunchScreen.storyboard */; };
 		B1060F59202C846300BF7259 /* VIPERDesignSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F58202C846300BF7259 /* VIPERDesignSampleTests.swift */; };
 		B1060F64202C846300BF7259 /* VIPERDesignSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F63202C846300BF7259 /* VIPERDesignSampleUITests.swift */; };
+		B155546C202DA9F700C1F7C0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155546B202DA9F700C1F7C0 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B1060F5F202C846300BF7259 /* VIPERDesignSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERDesignSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1060F63202C846300BF7259 /* VIPERDesignSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERDesignSampleUITests.swift; sourceTree = "<group>"; };
 		B1060F65202C846300BF7259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B155546B202DA9F700C1F7C0 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B1060F3F202C846200BF7259 /* VIPERDesignSample */ = {
 			isa = PBXGroup;
 			children = (
+				B155546A202DA9DD00C1F7C0 /* NetworkLayer */,
 				B1555469202DA97B00C1F7C0 /* Modules */,
 				B1060F40202C846200BF7259 /* AppDelegate.swift */,
 				B1060F42202C846200BF7259 /* ViewController.swift */,
@@ -134,6 +137,14 @@
 			children = (
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		B155546A202DA9DD00C1F7C0 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B155546B202DA9F700C1F7C0 /* Request.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1060F43202C846200BF7259 /* ViewController.swift in Sources */,
+				B155546C202DA9F700C1F7C0 /* Request.swift in Sources */,
 				B1060F49202C846200BF7259 /* VIPERDesignSample.xcdatamodeld in Sources */,
 				B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */,
 			);
