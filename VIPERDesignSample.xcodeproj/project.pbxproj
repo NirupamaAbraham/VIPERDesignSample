@@ -11,6 +11,9 @@
 		A88EEB9C2032CA1000FD288B /* Claim.json in Resources */ = {isa = PBXBuildFile; fileRef = A88EEB9B2032CA1000FD288B /* Claim.json */; };
 		A88EEB9E2032CC9700FD288B /* Authentication.json in Resources */ = {isa = PBXBuildFile; fileRef = A88EEB9D2032CC9700FD288B /* Authentication.json */; };
 		A88EEBA22032CE0C00FD288B /* Appointment.json in Resources */ = {isa = PBXBuildFile; fileRef = A88EEBA12032CE0C00FD288B /* Appointment.json */; };
+		A8900641203303E900394BEE /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890063E203303E800394BEE /* Appointment.swift */; };
+		A8900642203303E900394BEE /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890063F203303E800394BEE /* BaseModel.swift */; };
+		A8900643203303E900394BEE /* Claim.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8900640203303E800394BEE /* Claim.swift */; };
 		B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F40202C846200BF7259 /* AppDelegate.swift */; };
 		B1060F43202C846200BF7259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F42202C846200BF7259 /* ViewController.swift */; };
 		B1060F46202C846200BF7259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1060F44202C846200BF7259 /* Main.storyboard */; };
@@ -69,6 +72,9 @@
 		A88EEB9B2032CA1000FD288B /* Claim.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Claim.json; sourceTree = "<group>"; };
 		A88EEB9D2032CC9700FD288B /* Authentication.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Authentication.json; sourceTree = "<group>"; };
 		A88EEBA12032CE0C00FD288B /* Appointment.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Appointment.json; sourceTree = "<group>"; };
+		A890063E203303E800394BEE /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		A890063F203303E800394BEE /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		A8900640203303E800394BEE /* Claim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claim.swift; sourceTree = "<group>"; };
 		B1060F3D202C846200BF7259 /* VIPERDesignSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDesignSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1060F40202C846200BF7259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1060F42202C846200BF7259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +171,16 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		A890063D203303E800394BEE /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A890063E203303E800394BEE /* Appointment.swift */,
+				A890063F203303E800394BEE /* BaseModel.swift */,
+				A8900640203303E800394BEE /* Claim.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		A90EDABB5BD2A99862721F08 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +215,7 @@
 		B1060F3F202C846200BF7259 /* VIPERDesignSample */ = {
 			isa = PBXGroup;
 			children = (
+				A890063D203303E800394BEE /* Entities */,
 				B15486AF2032FA220062FE85 /* Common */,
 				B155546A202DA9DD00C1F7C0 /* NetworkLayer */,
 				B1555469202DA97B00C1F7C0 /* Modules */,
@@ -682,8 +699,10 @@
 				B1555478202DAB0000C1F7C0 /* LoginProtocols.swift in Sources */,
 				B155547E202DAB4800C1F7C0 /* LoginInteractor.swift in Sources */,
 				B15554A9202DACE300C1F7C0 /* ClaimInteractor.swift in Sources */,
+				A8900642203303E900394BEE /* BaseModel.swift in Sources */,
 				B1555489202DABBC00C1F7C0 /* ActivityPresenter.swift in Sources */,
 				B15554A7202DACD600C1F7C0 /* ClaimPresenter.swift in Sources */,
+				A8900641203303E900394BEE /* Appointment.swift in Sources */,
 				B1555498202DAC4700C1F7C0 /* AppointmentProtocols.swift in Sources */,
 				B1555480202DAB5400C1F7C0 /* LoginRouter.swift in Sources */,
 				B1060F49202C846200BF7259 /* VIPERDesignSample.xcdatamodeld in Sources */,
@@ -691,6 +710,7 @@
 				B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */,
 				B155548B202DABC900C1F7C0 /* ActivityInteractor.swift in Sources */,
 				B155549E202DAC7000C1F7C0 /* AppointmentRouter.swift in Sources */,
+				A8900643203303E900394BEE /* Claim.swift in Sources */,
 				B15486B12032FA760062FE85 /* UIViewController+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
