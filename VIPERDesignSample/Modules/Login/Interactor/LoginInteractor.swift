@@ -7,20 +7,22 @@
 //
 
 import Foundation
+import AKNetworking
 
 class LoginInteractor: LoginPresenterToInteractorProtocol {
     
     weak var presenter: LoginInteractorToPresenterProtocol?
     
     func authenticate(_ username: String, password: String) {
-        Request.authentication().execute().validate().responseJSON {
+        Request.authentication(username: username, password: password).execute().validate().responseJSON {
             (urlRequest, urlResponse, json, error) -> Void in
             guard error == nil else {
                 self.presenter?.authenticationFailed(withError: error!)
                 return
             }
-            guard let retrievedUsername = json["username"] as? String, let retrievedPassword = json["password"] as? String else {
-                let err = NSError(domain: "Authentication error", code: 401, userInfo: nil)
+            let response = json["response"] as JSON
+            guard let retrievedUsername = response["username"].string, let retrievedPassword = response["password"].string else {
+                let err = NSError(domain: "", code: 401, userInfo: [NSLocalizedDescriptionKey: NSLocalizedString("Authentication error", comment: "")])
                 self.presenter?.authenticationFailed(withError: err)
                 return
             }
@@ -28,7 +30,7 @@ class LoginInteractor: LoginPresenterToInteractorProtocol {
                 self.presenter?.authenticationSuccessful()
             }
             else {
-                let err = NSError(domain: "Username or password incorrect", code: 401, userInfo: nil)
+                let err = NSError(domain: "", code: 401, userInfo: [NSLocalizedDescriptionKey: NSLocalizedString("Username or password incorrect", comment: "")])
                 self.presenter?.authenticationFailed(withError: err)
             }
         }

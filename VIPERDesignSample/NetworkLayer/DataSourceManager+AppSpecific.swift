@@ -25,6 +25,7 @@ extension DataSourceManager {
 
         // setup local mode accordingly
         DataSourceManager.localMode = true
+        DataSourceManager.baseURLString = DataSourceManager.baseURL
 
     }
     
@@ -36,7 +37,7 @@ extension DataSourceManager {
     }
     
     class func pathForServiceName(_ name: String) -> String {
-        if let envPaths = Bundle.main.infoDictionary?["DataSource"] as? [String: AnyObject], let paths = envPaths["Paths"] as? [String:String] {
+        if let paths = Bundle.main.infoDictionary?["DataSource"] as? [String: String]{
             return paths[name] ?? ""
         }
         return ""

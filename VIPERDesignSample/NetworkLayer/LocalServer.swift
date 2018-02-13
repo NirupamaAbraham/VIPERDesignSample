@@ -28,10 +28,9 @@ func configureLocalServer() {
     // enable it as the local server in the networking layer
     DataSourceManager.localServerDelegate = server
     
-    
     // Authenticate:
-    server.post("/authenticate", handler: { (request, parameters) -> Response in
-        return Response(filename: "authentication", ofType: "json")
+    server.get("/authenticate", handler: { (request, parameters) -> Response in
+        return Response(filename: "Authentication", ofType: "json")
     })
     
     

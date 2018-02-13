@@ -33,6 +33,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPK-86-nDr">
                                 <rect key="frame" x="108" y="419" width="159" height="30"/>
                                 <color key="backgroundColor" red="0.72156862745098038" green="0.72156862745098038" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NWG-1h-X4p"/>
+                                </constraints>
                                 <state key="normal" title="Log in">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -49,7 +52,6 @@
                             <constraint firstItem="7Gh-TC-2ao" firstAttribute="trailing" secondItem="The-bL-iuP" secondAttribute="trailing" constant="74" id="CLU-8Q-CV4"/>
                             <constraint firstItem="fby-pj-qtR" firstAttribute="leading" secondItem="7Gh-TC-2ao" secondAttribute="leading" constant="74" id="HDO-c3-hDf"/>
                             <constraint firstItem="7Gh-TC-2ao" firstAttribute="trailing" secondItem="fby-pj-qtR" secondAttribute="trailing" constant="74" id="cjr-fM-Vy2"/>
-                            <constraint firstItem="7Gh-TC-2ao" firstAttribute="bottom" secondItem="uPK-86-nDr" secondAttribute="bottom" constant="218" id="deI-GM-1wQ"/>
                             <constraint firstItem="The-bL-iuP" firstAttribute="leading" secondItem="7Gh-TC-2ao" secondAttribute="leading" constant="74" id="jec-Yu-aTX"/>
                             <constraint firstItem="uPK-86-nDr" firstAttribute="leading" secondItem="7Gh-TC-2ao" secondAttribute="leading" constant="108" id="ofR-PY-dhI"/>
                             <constraint firstItem="The-bL-iuP" firstAttribute="top" secondItem="7Gh-TC-2ao" secondAttribute="top" constant="259" id="wyV-eh-WcT"/>
