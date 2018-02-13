@@ -7,3 +7,24 @@
 //
 
 import Foundation
+
+class LoginPresenter: LoginViewToPresenterProtocol {
+    
+    weak var view: LoginPresenterToViewProtocol?
+    var interactor: LoginPresenterToInteractorProtocol?
+    var router: LoginPresenterToRouterProtocol?
+    
+    func login(withUserName userName: String, andPassword password: String) {
+        interactor?.authenticate(userName, password: password)
+    }
+}
+
+extension LoginPresenter: LoginInteractorToPresenterProtocol {
+    func authenticationSuccessful() {
+        router?.showActivityModule()
+    }
+    
+    func authenticationFailed(withError error: NSError) {
+        view?.loginFailed(withError: error)
+    }
+}

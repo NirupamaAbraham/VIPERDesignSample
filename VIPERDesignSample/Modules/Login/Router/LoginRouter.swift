@@ -7,3 +7,29 @@
 //
 
 import Foundation
+import UIKit
+
+class LoginRouter: LoginPresenterToRouterProtocol {
+    
+    class func createLoginModule() -> UIViewController? {
+        let loginStoryBoard = UIStoryboard(name: "Login", bundle: nil)
+        if let view = loginStoryBoard.instantiateInitialViewController() as? LoginViewController {
+            let presenter: LoginViewToPresenterProtocol & LoginInteractorToPresenterProtocol = LoginPresenter()
+            let interactor: LoginPresenterToInteractorProtocol = LoginInteractor()
+            let router: LoginPresenterToRouterProtocol = LoginRouter()
+            
+            view.presenter = presenter
+            presenter.view = view
+            presenter.interactor = interactor
+            interactor.presenter = presenter
+            presenter.router = router
+            
+            return view
+        }
+        return nil
+    }
+    
+    func showActivityModule() {
+        
+    }
+}
