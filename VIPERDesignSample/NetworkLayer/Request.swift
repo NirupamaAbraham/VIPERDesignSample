@@ -19,7 +19,7 @@ enum Request {
     typealias MethodAndPath = (method: AKNetworking.Method, path: String)
 
     // Authentication
-    case authentication(username: String, password: String)
+    case authentication()
     
     //Claim Files
     case getClaimFiles(adjuster_id: String) // GET /claimsadjust_claimFile/claim_files?adjusterId={adjuster_id}
@@ -36,8 +36,8 @@ enum Request {
         
         switch self {
         // Authentication
-        case .authentication(let username, let password):
-            let data = ["data": ["credentials": ["userId": username, "password": password]]]
+        case .authentication():
+            let data = ["data": ""]
             request = DataSourceManager.request(methodAndPath.method
                                                 , methodAndPath.path
                 , parameters: data as [String: AnyObject]
@@ -78,7 +78,7 @@ enum Request {
         
         switch self {
         // Authentication
-        case .authentication(_, _):
+        case .authentication():
             return (.PUT, pathForServiceName("Authenticate"))
             
         // Claim Files

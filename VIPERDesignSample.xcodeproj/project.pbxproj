@@ -21,6 +21,8 @@
 		B1060F64202C846300BF7259 /* VIPERDesignSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F63202C846300BF7259 /* VIPERDesignSampleUITests.swift */; };
 		B15486AA2032C5E60062FE85 /* DataSourceManager+AppSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15486A92032C5E60062FE85 /* DataSourceManager+AppSpecific.swift */; };
 		B15486AC2032C6B20062FE85 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15486AB2032C6B10062FE85 /* Request.swift */; };
+		B15486AE2032E76A0062FE85 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15486AD2032E76A0062FE85 /* Login.storyboard */; };
+		B15486B12032FA760062FE85 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15486B02032FA760062FE85 /* UIViewController+Ext.swift */; };
 		B1555478202DAB0000C1F7C0 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555477202DAB0000C1F7C0 /* LoginProtocols.swift */; };
 		B155547A202DAB1200C1F7C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555479202DAB1200C1F7C0 /* LoginViewController.swift */; };
 		B155547C202DAB3800C1F7C0 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155547B202DAB3800C1F7C0 /* LoginPresenter.swift */; };
@@ -83,6 +85,8 @@
 		B1060F65202C846300BF7259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15486A92032C5E60062FE85 /* DataSourceManager+AppSpecific.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataSourceManager+AppSpecific.swift"; sourceTree = "<group>"; };
 		B15486AB2032C6B10062FE85 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B15486AD2032E76A0062FE85 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B15486B02032FA760062FE85 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		B1555477202DAB0000C1F7C0 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
 		B1555479202DAB1200C1F7C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B155547B202DAB3800C1F7C0 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 		B1060F3F202C846200BF7259 /* VIPERDesignSample */ = {
 			isa = PBXGroup;
 			children = (
+				B15486AF2032FA220062FE85 /* Common */,
 				B155546A202DA9DD00C1F7C0 /* NetworkLayer */,
 				B1555469202DA97B00C1F7C0 /* Modules */,
 				B1060F40202C846200BF7259 /* AppDelegate.swift */,
@@ -224,6 +229,14 @@
 				B1060F65202C846300BF7259 /* Info.plist */,
 			);
 			path = VIPERDesignSampleUITests;
+			sourceTree = "<group>";
+		};
+		B15486AF2032FA220062FE85 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B15486B02032FA760062FE85 /* UIViewController+Ext.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		B1555469202DA97B00C1F7C0 /* Modules */ = {
@@ -324,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				B1555479202DAB1200C1F7C0 /* LoginViewController.swift */,
+				B15486AD2032E76A0062FE85 /* Login.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -568,6 +582,7 @@
 			files = (
 				A88EEB9C2032CA1000FD288B /* Claim.json in Resources */,
 				A88EEBA22032CE0C00FD288B /* Appointment.json in Resources */,
+				B15486AE2032E76A0062FE85 /* Login.storyboard in Resources */,
 				B1060F4E202C846200BF7259 /* LaunchScreen.storyboard in Resources */,
 				B1060F4B202C846200BF7259 /* Assets.xcassets in Resources */,
 				A88EEB9E2032CC9700FD288B /* Authentication.json in Resources */,
@@ -676,6 +691,7 @@
 				B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */,
 				B155548B202DABC900C1F7C0 /* ActivityInteractor.swift in Sources */,
 				B155549E202DAC7000C1F7C0 /* AppointmentRouter.swift in Sources */,
+				B15486B12032FA760062FE85 /* UIViewController+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

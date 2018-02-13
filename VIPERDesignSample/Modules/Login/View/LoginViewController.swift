@@ -10,6 +10,12 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var userNameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    
+    var presenter: LoginViewToPresenterProtocol?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +28,18 @@ class LoginViewController: UIViewController {
     }
     
 
+    @IBAction func loginButtonTapped(_ sender: UIButton) {
+        guard let userName = userNameTextField.text else {
+            self.showAlert(withMessage: "Please enter the user name")
+            return
+        }
+        guard let password = passwordTextField.text  else {
+            self.showAlert(withMessage: "Please enter the password")
+            return
+        }
+        presenter?.login(withUserName: userName, andPassword: password)
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -32,4 +50,10 @@ class LoginViewController: UIViewController {
     }
     */
 
+}
+
+extension LoginViewController: LoginPresenterToViewProtocol {
+    func loginFailed(withError error: NSError) {
+        self.showAlert(withMessage: error.localizedDescription)
+    }
 }
