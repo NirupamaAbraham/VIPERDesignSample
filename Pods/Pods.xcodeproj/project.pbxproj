@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0958617A5BAB07FDE20A886DC1BBAC12 /* NSCacheBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6546C70C4D2FCF332766CCC64C9729 /* NSCacheBase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0DB8B038485B2E3C85DF54FF8B0F7F73 /* DataSourceManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42216919061E688FCD5E1F58EE4CA5B2 /* DataSourceManager+Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F58BA431C28387A3C51441A4BD26D15 /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568EE84340607704D5E60AF6F1E417A /* DataCache.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1553CE5AA7D43D96A06F74E00BA4F200 /* JSON+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140AE42991A4205630A656E3CA70445 /* JSON+Date.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		17F843C64414996EDDE47F8520E6DBA3 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D2EF547A17481995649758A2D41A6B /* SessionManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		325B17D9D6746CF26175E5B8AA19B069 /* Pods-VIPERDesignSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163B3EDE8C83EE1458EFAB15EC33F8D4 /* Pods-VIPERDesignSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34A0AEB11C190FD2C6FE5D0EF98DB821 /* AKRequestLogging+ServerLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF449FB59E3B861CA98442CE47CFD86A /* AKRequestLogging+ServerLog.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		38C5D34DF1486CDBE2CE9894D5956EA4 /* RequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D629FFFC5D31FECB4D59A7BBFB8BAA1 /* RequestDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3A452168A06EFB15002A7215408A4097 /* DataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98776D78D17ACA31A1FE09E6D0E4089F /* DataSourceManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		42A443624398BAFEE93982D4BB5F6C82 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E778567828C6D870122B2E409CD95 /* Response.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		47BEB64758E49C8F4FC7CE275C5A2EE5 /* SessionManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708233397B1DF88CC6CBC9494D0AB5CC /* SessionManagerDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4D9A9CBF8555CE817786A58F88043396 /* AKNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EC7562E92BA241D7FCA2853E05253B /* AKNetworking-dummy.m */; };
+		5BDD713675D8C2BCA485A04D262A22CD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070064A460FA624E45831F609BB58F5 /* Request.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6828F5932187596D4E62FE9660F82545 /* LocalServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451DDF34A1A975BE4DA79A7A1233AC3 /* LocalServerDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8347BF0C6A2A2496C7C07B18A907746F /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661CA28A520C28E76BB9E7985C1913DF /* JSON.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		85A64BE5A96650800BD2528CC068B158 /* UIImageView+ImageCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE58D30154D1111EC6F9D71CB8AC3769 /* UIImageView+ImageCaching.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9031B0F2C907D4592C7A4D86700DDB2F /* ResponseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD07DC96A039FA30E1A62A57A2F2628 /* ResponseValidator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		931348C2C304B5B1CA7259EDE5915C7F /* LocalServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03038AB233A92B8D74399C84019DB25F /* LocalServer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		97DE9C963B7AB56543336330080EE87A /* JSON+Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = E226983688BB47FB90B0A9B9861A0D92 /* JSON+Number.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9A18F9DAD9B9E285268F1623B5E5AD8D /* AKRequestLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C9B80F718DB9D3831852B36D8F9D /* AKRequestLogging.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9C9C5032BDC757938CEE6E0077E5438D /* AKReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB99BCC7B968195E6AB965CE17F7945 /* AKReachability.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9CD80F676E6767D140FC139188633CE7 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592B8335F4D69F27D7B3EE3944CFFDC /* Enums.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A90DF44432597F22DB79494C54AA3324 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02385720265BA806CE6C6D3E9D22811 /* CacheManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BCDAA5EECCF72CB64C3686947350805C /* ServerPolicyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D170C023DBFF7FDA7BB8C76C8734CB7 /* ServerPolicyManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C6DBF0087D81B25245F9A965735BF578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CC938ADBE26E7C012E591255185E32B9 /* SessionManager+Multipart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E000D52496799C4268D51820F7C2C4 /* SessionManager+Multipart.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CE437C6BA35A66E71BF7FBC689AFC2B9 /* AKNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15894F5E3796EE14FAB4B7356A5351C4 /* AKNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29A7374BB4307381B4E6185B8E88B7E /* StubURLHTTPProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635486895F8507A45159DC8EB7B4C213 /* StubURLHTTPProtocol.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E4B31D35C76E3BAE9B67DEB4AD2F39B8 /* String+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92774127D38CF65DC77E8CBF5158B04 /* String+Base64.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E78F7948D1147199A6AA03B65EDEE6BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EB540B5A9D3486E24AE4C0ADBE0EFA55 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96BFC410FAB7306BFBF16E2A888B765 /* Global.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F931F940F9A44BFCC1A65ED1068D4CC6 /* JSON+Others.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C99546936850F06A856B104EE59CDA /* JSON+Others.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F9625A591A6D1200137255F1C2470641 /* Pods-VIPERDesignSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EACCDAF39918EFA42EE6E8E63C9D084 /* Pods-VIPERDesignSample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F77637F32EF4432CBD86AFDDEB00F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E037409A242198786F7EDFD0A825F8D;
+			remoteInfo = AKNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03038AB233A92B8D74399C84019DB25F /* LocalServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalServer.swift; path = AKNetworking/Sources/Core/LocalServer/LocalServer.swift; sourceTree = "<group>"; };
+		0489B81238DB3E8DBF25284AE16FADF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0568EE84340607704D5E60AF6F1E417A /* DataCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataCache.swift; path = AKNetworking/Sources/Core/Cache/DataCache.swift; sourceTree = "<group>"; };
+		079FCA4CEC56DD2A7181F035DC4AC4F3 /* Pods-VIPERDesignSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERDesignSample-resources.sh"; sourceTree = "<group>"; };
+		09C6C9B80F718DB9D3831852B36D8F9D /* AKRequestLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AKRequestLogging.swift; path = AKNetworking/Sources/Core/Logging/AKRequestLogging.swift; sourceTree = "<group>"; };
+		0B019A7E18059A0B45A44229E8F851C8 /* Pods_VIPERDesignSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIPERDesignSample.framework; path = "Pods-VIPERDesignSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D629FFFC5D31FECB4D59A7BBFB8BAA1 /* RequestDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestDelegate.swift; path = AKNetworking/Sources/Core/Serializers/RequestDelegate.swift; sourceTree = "<group>"; };
+		1140AE42991A4205630A656E3CA70445 /* JSON+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSON+Date.swift"; path = "AKNetworking/Sources/Core/Serializers/JSON+Date.swift"; sourceTree = "<group>"; };
+		12E000D52496799C4268D51820F7C2C4 /* SessionManager+Multipart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SessionManager+Multipart.swift"; path = "AKNetworking/Sources/Core/Managers/SessionManager+Multipart.swift"; sourceTree = "<group>"; };
+		12EE027CA6A9DE26A95F581E9D3A3CA7 /* Pods-VIPERDesignSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIPERDesignSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		1451DDF34A1A975BE4DA79A7A1233AC3 /* LocalServerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalServerDelegate.swift; path = AKNetworking/Sources/Core/LocalServer/LocalServerDelegate.swift; sourceTree = "<group>"; };
+		15894F5E3796EE14FAB4B7356A5351C4 /* AKNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKNetworking-umbrella.h"; sourceTree = "<group>"; };
+		163B3EDE8C83EE1458EFAB15EC33F8D4 /* Pods-VIPERDesignSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIPERDesignSample-umbrella.h"; sourceTree = "<group>"; };
+		1AD07DC96A039FA30E1A62A57A2F2628 /* ResponseValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseValidator.swift; path = AKNetworking/Sources/Core/Serializers/ResponseValidator.swift; sourceTree = "<group>"; };
+		284E778567828C6D870122B2E409CD95 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = AKNetworking/Sources/Core/Serializers/Response.swift; sourceTree = "<group>"; };
+		2BB99BCC7B968195E6AB965CE17F7945 /* AKReachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AKReachability.swift; path = AKNetworking/Sources/Helpers/AKReachability.swift; sourceTree = "<group>"; };
+		2BF0F6F20C11E679948C7E81EC1922FA /* Pods-VIPERDesignSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERDesignSample.debug.xcconfig"; sourceTree = "<group>"; };
+		42216919061E688FCD5E1F58EE4CA5B2 /* DataSourceManager+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DataSourceManager+Extensions.swift"; path = "AKNetworking/Sources/Core/Managers/DataSourceManager+Extensions.swift"; sourceTree = "<group>"; };
+		4D170C023DBFF7FDA7BB8C76C8734CB7 /* ServerPolicyManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerPolicyManager.swift; path = AKNetworking/Sources/Core/Managers/ServerPolicyManager.swift; sourceTree = "<group>"; };
+		4EACCDAF39918EFA42EE6E8E63C9D084 /* Pods-VIPERDesignSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIPERDesignSample-dummy.m"; sourceTree = "<group>"; };
+		5C6546C70C4D2FCF332766CCC64C9729 /* NSCacheBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSCacheBase.swift; path = AKNetworking/Sources/Core/Cache/NSCacheBase.swift; sourceTree = "<group>"; };
+		635486895F8507A45159DC8EB7B4C213 /* StubURLHTTPProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StubURLHTTPProtocol.swift; path = AKNetworking/Sources/Core/Serializers/StubURLHTTPProtocol.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		661CA28A520C28E76BB9E7985C1913DF /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = AKNetworking/Sources/Core/Serializers/JSON.swift; sourceTree = "<group>"; };
+		708233397B1DF88CC6CBC9494D0AB5CC /* SessionManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManagerDelegate.swift; path = AKNetworking/Sources/Core/Managers/SessionManagerDelegate.swift; sourceTree = "<group>"; };
+		733CC6A753EDFFBE2C2D4BDEB8D0759F /* Pods-VIPERDesignSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERDesignSample-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98776D78D17ACA31A1FE09E6D0E4089F /* DataSourceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSourceManager.swift; path = AKNetworking/Sources/Core/Managers/DataSourceManager.swift; sourceTree = "<group>"; };
+		9FF70678F54D328ED1B90ABECB5448F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A592B8335F4D69F27D7B3EE3944CFFDC /* Enums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = AKNetworking/Sources/Core/Managers/Enums.swift; sourceTree = "<group>"; };
+		A92774127D38CF65DC77E8CBF5158B04 /* String+Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Base64.swift"; path = "AKNetworking/Sources/Helpers/String+Base64.swift"; sourceTree = "<group>"; };
+		B070064A460FA624E45831F609BB58F5 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = AKNetworking/Sources/Core/Serializers/Request.swift; sourceTree = "<group>"; };
+		B21152DA4478FA76908ECCA12BEFD4C0 /* Pods-VIPERDesignSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERDesignSample.release.xcconfig"; sourceTree = "<group>"; };
+		BCAEA2539B53606024044C30A03DE3A5 /* AKNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AKNetworking.modulemap; sourceTree = "<group>"; };
+		C02385720265BA806CE6C6D3E9D22811 /* CacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheManager.swift; path = AKNetworking/Sources/Core/Managers/CacheManager.swift; sourceTree = "<group>"; };
+		C479E6734D1FEC2C7B396B9509FBF24B /* Pods-VIPERDesignSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIPERDesignSample.modulemap"; sourceTree = "<group>"; };
+		CAE129790642FC8BC1B8BA06FF8C3C6A /* AKNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKNetworking.framework; path = AKNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB575B7935B1038FF72A95B914C45E5C /* Pods-VIPERDesignSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIPERDesignSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0D2EF547A17481995649758A2D41A6B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = AKNetworking/Sources/Core/Managers/SessionManager.swift; sourceTree = "<group>"; };
+		D7EC7562E92BA241D7FCA2853E05253B /* AKNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKNetworking-dummy.m"; sourceTree = "<group>"; };
+		DE58D30154D1111EC6F9D71CB8AC3769 /* UIImageView+ImageCaching.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+ImageCaching.swift"; path = "AKNetworking/Sources/Helpers/UIImageView+ImageCaching.swift"; sourceTree = "<group>"; };
+		E226983688BB47FB90B0A9B9861A0D92 /* JSON+Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSON+Number.swift"; path = "AKNetworking/Sources/Core/Serializers/JSON+Number.swift"; sourceTree = "<group>"; };
+		E96BFC410FAB7306BFBF16E2A888B765 /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Global.swift; path = AKNetworking/Sources/Helpers/Global.swift; sourceTree = "<group>"; };
+		EF78C75D9D8E231CFA271D5B75015E75 /* AKNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKNetworking-prefix.pch"; sourceTree = "<group>"; };
+		F24FF993500D84A88C6839D4FF02AE58 /* AKNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKNetworking.xcconfig; sourceTree = "<group>"; };
+		F6C99546936850F06A856B104EE59CDA /* JSON+Others.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSON+Others.swift"; path = "AKNetworking/Sources/Core/Serializers/JSON+Others.swift"; sourceTree = "<group>"; };
+		FF449FB59E3B861CA98442CE47CFD86A /* AKRequestLogging+ServerLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AKRequestLogging+ServerLog.swift"; path = "AKNetworking/Sources/Core/Logging/AKRequestLogging+ServerLog.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26F7A1F4FB260B9AB697A8F25640A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DBF0087D81B25245F9A965735BF578 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F072535F4147B6F59A2AD6DAD7A8D7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78F7948D1147199A6AA03B65EDEE6BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4A10D6D0AA36A1A345738D16538B50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				756B47CDC8D255C8494AFBB61F564436 /* Pods-VIPERDesignSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		565DD9A878D1B6651D9C66C4800A5210 /* AKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				2BB99BCC7B968195E6AB965CE17F7945 /* AKReachability.swift */,
+				09C6C9B80F718DB9D3831852B36D8F9D /* AKRequestLogging.swift */,
+				FF449FB59E3B861CA98442CE47CFD86A /* AKRequestLogging+ServerLog.swift */,
+				C02385720265BA806CE6C6D3E9D22811 /* CacheManager.swift */,
+				0568EE84340607704D5E60AF6F1E417A /* DataCache.swift */,
+				98776D78D17ACA31A1FE09E6D0E4089F /* DataSourceManager.swift */,
+				42216919061E688FCD5E1F58EE4CA5B2 /* DataSourceManager+Extensions.swift */,
+				A592B8335F4D69F27D7B3EE3944CFFDC /* Enums.swift */,
+				E96BFC410FAB7306BFBF16E2A888B765 /* Global.swift */,
+				661CA28A520C28E76BB9E7985C1913DF /* JSON.swift */,
+				1140AE42991A4205630A656E3CA70445 /* JSON+Date.swift */,
+				E226983688BB47FB90B0A9B9861A0D92 /* JSON+Number.swift */,
+				F6C99546936850F06A856B104EE59CDA /* JSON+Others.swift */,
+				03038AB233A92B8D74399C84019DB25F /* LocalServer.swift */,
+				1451DDF34A1A975BE4DA79A7A1233AC3 /* LocalServerDelegate.swift */,
+				5C6546C70C4D2FCF332766CCC64C9729 /* NSCacheBase.swift */,
+				B070064A460FA624E45831F609BB58F5 /* Request.swift */,
+				0D629FFFC5D31FECB4D59A7BBFB8BAA1 /* RequestDelegate.swift */,
+				284E778567828C6D870122B2E409CD95 /* Response.swift */,
+				1AD07DC96A039FA30E1A62A57A2F2628 /* ResponseValidator.swift */,
+				4D170C023DBFF7FDA7BB8C76C8734CB7 /* ServerPolicyManager.swift */,
+				D0D2EF547A17481995649758A2D41A6B /* SessionManager.swift */,
+				12E000D52496799C4268D51820F7C2C4 /* SessionManager+Multipart.swift */,
+				708233397B1DF88CC6CBC9494D0AB5CC /* SessionManagerDelegate.swift */,
+				A92774127D38CF65DC77E8CBF5158B04 /* String+Base64.swift */,
+				635486895F8507A45159DC8EB7B4C213 /* StubURLHTTPProtocol.swift */,
+				DE58D30154D1111EC6F9D71CB8AC3769 /* UIImageView+ImageCaching.swift */,
+				D1D7049AF5F8C02AD292A1FBDA515899 /* Support Files */,
+			);
+			name = AKNetworking;
+			path = AKNetworking;
+			sourceTree = "<group>";
+		};
+		756B47CDC8D255C8494AFBB61F564436 /* Pods-VIPERDesignSample */ = {
+			isa = PBXGroup;
+			children = (
+				0489B81238DB3E8DBF25284AE16FADF4 /* Info.plist */,
+				C479E6734D1FEC2C7B396B9509FBF24B /* Pods-VIPERDesignSample.modulemap */,
+				CB575B7935B1038FF72A95B914C45E5C /* Pods-VIPERDesignSample-acknowledgements.markdown */,
+				12EE027CA6A9DE26A95F581E9D3A3CA7 /* Pods-VIPERDesignSample-acknowledgements.plist */,
+				4EACCDAF39918EFA42EE6E8E63C9D084 /* Pods-VIPERDesignSample-dummy.m */,
+				733CC6A753EDFFBE2C2D4BDEB8D0759F /* Pods-VIPERDesignSample-frameworks.sh */,
+				079FCA4CEC56DD2A7181F035DC4AC4F3 /* Pods-VIPERDesignSample-resources.sh */,
+				163B3EDE8C83EE1458EFAB15EC33F8D4 /* Pods-VIPERDesignSample-umbrella.h */,
+				2BF0F6F20C11E679948C7E81EC1922FA /* Pods-VIPERDesignSample.debug.xcconfig */,
+				B21152DA4478FA76908ECCA12BEFD4C0 /* Pods-VIPERDesignSample.release.xcconfig */,
+			);
+			name = "Pods-VIPERDesignSample";
+			path = "Target Support Files/Pods-VIPERDesignSample";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BC9ADFD709F4B80FD9BB69687495CE1C /* Pods */,
+				9AF30F962C33BD1C4B1BD72E230715F7 /* Products */,
+				3D4A10D6D0AA36A1A345738D16538B50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF30F962C33BD1C4B1BD72E230715F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE129790642FC8BC1B8BA06FF8C3C6A /* AKNetworking.framework */,
+				0B019A7E18059A0B45A44229E8F851C8 /* Pods_VIPERDesignSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC9ADFD709F4B80FD9BB69687495CE1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				565DD9A878D1B6651D9C66C4800A5210 /* AKNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1D7049AF5F8C02AD292A1FBDA515899 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAEA2539B53606024044C30A03DE3A5 /* AKNetworking.modulemap */,
+				F24FF993500D84A88C6839D4FF02AE58 /* AKNetworking.xcconfig */,
+				D7EC7562E92BA241D7FCA2853E05253B /* AKNetworking-dummy.m */,
+				EF78C75D9D8E231CFA271D5B75015E75 /* AKNetworking-prefix.pch */,
+				15894F5E3796EE14FAB4B7356A5351C4 /* AKNetworking-umbrella.h */,
+				9FF70678F54D328ED1B90ABECB5448F6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKNetworking";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00C33F756C7E92309EEF3F349F5BB6F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325B17D9D6746CF26175E5B8AA19B069 /* Pods-VIPERDesignSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15C5383865CEB3FE37A9949AFFF1EE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE437C6BA35A66E71BF7FBC689AFC2B9 /* AKNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E037409A242198786F7EDFD0A825F8D /* AKNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B14C4239777D8604F75E52284864F58 /* Build configuration list for PBXNativeTarget "AKNetworking" */;
+			buildPhases = (
+				BFD0C42D870AFB6010901014FB04A772 /* Sources */,
+				B26F7A1F4FB260B9AB697A8F25640A89 /* Frameworks */,
+				D15C5383865CEB3FE37A9949AFFF1EE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKNetworking;
+			productName = AKNetworking;
+			productReference = CAE129790642FC8BC1B8BA06FF8C3C6A /* AKNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C676E888C3FAD162A0B5B70AAD970F07 /* Pods-VIPERDesignSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A069C20C326E445B940B9ECDEA8B72C1 /* Build configuration list for PBXNativeTarget "Pods-VIPERDesignSample" */;
+			buildPhases = (
+				6F74ABA1CDCED6F84AF3657B1BE1D005 /* Sources */,
+				F072535F4147B6F59A2AD6DAD7A8D7C9 /* Frameworks */,
+				00C33F756C7E92309EEF3F349F5BB6F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA177D6C0D796628F1DD35BC2A2966FC /* PBXTargetDependency */,
+			);
+			name = "Pods-VIPERDesignSample";
+			productName = "Pods-VIPERDesignSample";
+			productReference = 0B019A7E18059A0B45A44229E8F851C8 /* Pods_VIPERDesignSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9AF30F962C33BD1C4B1BD72E230715F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E037409A242198786F7EDFD0A825F8D /* AKNetworking */,
+				C676E888C3FAD162A0B5B70AAD970F07 /* Pods-VIPERDesignSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F74ABA1CDCED6F84AF3657B1BE1D005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9625A591A6D1200137255F1C2470641 /* Pods-VIPERDesignSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD0C42D870AFB6010901014FB04A772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9A9CBF8555CE817786A58F88043396 /* AKNetworking-dummy.m in Sources */,
+				9C9C5032BDC757938CEE6E0077E5438D /* AKReachability.swift in Sources */,
+				34A0AEB11C190FD2C6FE5D0EF98DB821 /* AKRequestLogging+ServerLog.swift in Sources */,
+				9A18F9DAD9B9E285268F1623B5E5AD8D /* AKRequestLogging.swift in Sources */,
+				A90DF44432597F22DB79494C54AA3324 /* CacheManager.swift in Sources */,
+				0F58BA431C28387A3C51441A4BD26D15 /* DataCache.swift in Sources */,
+				0DB8B038485B2E3C85DF54FF8B0F7F73 /* DataSourceManager+Extensions.swift in Sources */,
+				3A452168A06EFB15002A7215408A4097 /* DataSourceManager.swift in Sources */,
+				9CD80F676E6767D140FC139188633CE7 /* Enums.swift in Sources */,
+				EB540B5A9D3486E24AE4C0ADBE0EFA55 /* Global.swift in Sources */,
+				1553CE5AA7D43D96A06F74E00BA4F200 /* JSON+Date.swift in Sources */,
+				97DE9C963B7AB56543336330080EE87A /* JSON+Number.swift in Sources */,
+				F931F940F9A44BFCC1A65ED1068D4CC6 /* JSON+Others.swift in Sources */,
+				8347BF0C6A2A2496C7C07B18A907746F /* JSON.swift in Sources */,
+				931348C2C304B5B1CA7259EDE5915C7F /* LocalServer.swift in Sources */,
+				6828F5932187596D4E62FE9660F82545 /* LocalServerDelegate.swift in Sources */,
+				0958617A5BAB07FDE20A886DC1BBAC12 /* NSCacheBase.swift in Sources */,
+				5BDD713675D8C2BCA485A04D262A22CD /* Request.swift in Sources */,
+				38C5D34DF1486CDBE2CE9894D5956EA4 /* RequestDelegate.swift in Sources */,
+				42A443624398BAFEE93982D4BB5F6C82 /* Response.swift in Sources */,
+				9031B0F2C907D4592C7A4D86700DDB2F /* ResponseValidator.swift in Sources */,
+				BCDAA5EECCF72CB64C3686947350805C /* ServerPolicyManager.swift in Sources */,
+				CC938ADBE26E7C012E591255185E32B9 /* SessionManager+Multipart.swift in Sources */,
+				17F843C64414996EDDE47F8520E6DBA3 /* SessionManager.swift in Sources */,
+				47BEB64758E49C8F4FC7CE275C5A2EE5 /* SessionManagerDelegate.swift in Sources */,
+				E4B31D35C76E3BAE9B67DEB4AD2F39B8 /* String+Base64.swift in Sources */,
+				D29A7374BB4307381B4E6185B8E88B7E /* StubURLHTTPProtocol.swift in Sources */,
+				85A64BE5A96650800BD2528CC068B158 /* UIImageView+ImageCaching.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA177D6C0D796628F1DD35BC2A2966FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKNetworking;
+			target = 6E037409A242198786F7EDFD0A825F8D /* AKNetworking */;
+			targetProxy = 9F77637F32EF4432CBD86AFDDEB00F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F1EAD7FF54BDFAEA7A5DDA1820C26B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24FF993500D84A88C6839D4FF02AE58 /* AKNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKNetworking/AKNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKNetworking/AKNetworking.modulemap";
+				PRODUCT_NAME = AKNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8E643F87F1F62B308577EA99E7D85A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24FF993500D84A88C6839D4FF02AE58 /* AKNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKNetworking/AKNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKNetworking/AKNetworking.modulemap";
+				PRODUCT_NAME = AKNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA3382B35FAB70F011A66593A4B626FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21152DA4478FA76908ECCA12BEFD4C0 /* Pods-VIPERDesignSample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VIPERDesignSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIPERDesignSample/Pods-VIPERDesignSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VIPERDesignSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C036D2692128C0FE3BE69228C610B554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF0F6F20C11E679948C7E81EC1922FA /* Pods-VIPERDesignSample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VIPERDesignSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIPERDesignSample/Pods-VIPERDesignSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VIPERDesignSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B14C4239777D8604F75E52284864F58 /* Build configuration list for PBXNativeTarget "AKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1EAD7FF54BDFAEA7A5DDA1820C26B5 /* Debug */,
+				8E643F87F1F62B308577EA99E7D85A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A069C20C326E445B940B9ECDEA8B72C1 /* Build configuration list for PBXNativeTarget "Pods-VIPERDesignSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C036D2692128C0FE3BE69228C610B554 /* Debug */,
+				BA3382B35FAB70F011A66593A4B626FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

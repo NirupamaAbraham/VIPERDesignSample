@@ -24,6 +24,19 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>DataSource</key>
+	<dict>
+		<key>baseURL</key>
+		<string>http://dev9.mobilefirstforios.com:9080/Insurance/</string>
+		<key>Paths</key>
+		<dict/>
+		<key>Authentication</key>
+		<string>/authenticate</string>
+		<key>GetClaimFiles</key>
+		<string>/claimsadjust_claimFile/claim_files?adjusterId={adjuster_id}</string>
+		<key>GetAppointments</key>
+		<string>/claimsadjust_appointment/appointments?adjusterId={adjuster_id}</string>
+	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
