@@ -8,7 +8,7 @@
 
 import Foundation
 
-class BaseModel : NSObject {
+class Activities : NSObject {
     
     var claimantName : String = ""
     var descriptionString : String = ""

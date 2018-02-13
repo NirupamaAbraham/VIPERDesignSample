@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Claim : BaseModel {
+class Claim : Activities {
     
     var claimFileNumber : String = ""
     var peril : String = ""

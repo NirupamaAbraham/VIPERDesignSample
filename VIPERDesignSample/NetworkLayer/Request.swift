@@ -22,10 +22,10 @@ enum Request {
     case authentication()
     
     //Claim Files
-    case getClaimFiles(adjuster_id: String) // GET /claimsadjust_claimFile/claim_files?adjusterId={adjuster_id}
+    case getClaimFiles() // GET /claimsadjust_claimFile/claim_files?adjusterId={adjuster_id}
     
     //Appointments
-    case getAppointments(adjuster_id: String) // GET /claimsadjust_appointment/appointments?adjusterId={adjuster_id}
+    case getAppointments() // GET /claimsadjust_appointment/appointments?adjusterId={adjuster_id}
 
 
     
@@ -45,16 +45,12 @@ enum Request {
                                                 , headers: self.headers)
       
         // Claim Files
-        case .getClaimFiles(let adjuster_id):
-            request = DataSourceManager.request(methodAndPath.method
-                , replacePathTokens(methodAndPath.path, tokensValues:["adjuster_id": String(adjuster_id)])
-                , headers: self.headers)
+        case .getClaimFiles():
+            request = DataSourceManager.request(methodAndPath.method, methodAndPath.path)
             
         //Appointments
-        case .getAppointments(let adjuster_id):
-            request = DataSourceManager.request(methodAndPath.method
-                , replacePathTokens(methodAndPath.path, tokensValues:["adjuster_id": String(adjuster_id)])
-                , headers: self.headers)
+        case .getAppointments():
+            request = DataSourceManager.request(methodAndPath.method, methodAndPath.path)
 
         }
     

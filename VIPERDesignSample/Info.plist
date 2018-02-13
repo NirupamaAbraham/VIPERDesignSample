@@ -33,9 +33,9 @@
 		<key>Authentication</key>
 		<string>/authenticate</string>
 		<key>GetClaimFiles</key>
-		<string>/claimsadjust_claimFile/claim_files?adjusterId={adjuster_id}</string>
+		<string>/claimsadjust_claimFile/claim_files</string>
 		<key>GetAppointments</key>
-		<string>/claimsadjust_appointment/appointments?adjusterId={adjuster_id}</string>
+		<string>/claimsadjust_appointment/appointments</string>
 	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

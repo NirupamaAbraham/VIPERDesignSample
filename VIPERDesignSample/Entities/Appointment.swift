@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Appointment: BaseModel {
+class Appointment: Activities {
     
     var appointmentType : String = ""
     var date : String = ""

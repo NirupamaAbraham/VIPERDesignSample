@@ -18,7 +18,7 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
         </view>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="91" id="uF2-Sa-pvS">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="91" id="uF2-Sa-pvS" customClass="CommonTableViewCell" customModule="VIPERDesignSample" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="432" height="91"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uF2-Sa-pvS" id="Fu8-Fc-i3j">
@@ -55,6 +55,12 @@
                     </label>
                 </subviews>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="rQj-h3-806" id="Z31-rQ-EQF"/>
+                <outlet property="nameLabel" destination="PAZ-D2-T0d" id="bON-TD-xWj"/>
+                <outlet property="peril_timeLabel" destination="qc9-g6-JSU" id="Xw9-lS-vJR"/>
+                <outlet property="titleLabel" destination="sUF-rn-3Ki" id="xIr-bM-toI"/>
+            </connections>
             <point key="canvasLocation" x="89" y="-249.5"/>
         </tableViewCell>
     </objects>

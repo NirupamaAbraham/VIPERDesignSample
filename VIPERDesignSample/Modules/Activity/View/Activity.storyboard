@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Activity Table View Controller-->
         <scene sceneID="hS4-pZ-b5m">
             <objects>
-                <tableViewController id="Q59-CR-sTM" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ActivityTVC" id="Q59-CR-sTM" customClass="ActivityTableViewController" customModule="VIPERDesignSample" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="XEO-Kv-4di">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,10 +32,29 @@
                             <outlet property="delegate" destination="Q59-CR-sTM" id="opD-w9-pCv"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="5fw-uC-VEs"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5O-ak-sKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="151" y="137"/>
+            <point key="canvasLocation" x="657" y="127"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="y0g-Nn-pnv">
+            <objects>
+                <navigationController storyboardIdentifier="ActivitiesNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="K7o-EO-JzQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L8Y-JU-F93">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Q59-CR-sTM" kind="relationship" relationship="rootViewController" id="AIE-XR-1yp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gnS-P4-27I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146" y="126"/>
         </scene>
     </scenes>
 </document>

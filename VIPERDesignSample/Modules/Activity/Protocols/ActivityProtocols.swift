@@ -12,16 +12,16 @@ import UIKit
 protocol ActivityPresenterToViewProtocol: class {
     func showClaim(claimArray : [Claim])
     func showAppointment(appointmentArray: [Appointment])
-    func showLoading()
-    func hideLoading()
+//    func showLoading()
+//    func hideLoading()
 }
 
 protocol ActivityInterectorToPresenterProtocol: class {
     
-    func claimsFetched()
-    func activitiesFetched()
-    func claimsFetchFailed()
-    func activitiesFetchFailed()
+    func claimsFetched(claimData: [Claim])
+    func appointmentsFetched()
+    func claimsFetchFailed(withError error: NSError)
+    func appointmentsFetchedFailed(withError error: NSError)
 }
 
 protocol ActivityPresentorToInterectorProtocol: class {
@@ -32,12 +32,14 @@ protocol ActivityPresentorToInterectorProtocol: class {
 protocol ActivityViewToPresenterProtocol: class {
     var view : ActivityPresenterToViewProtocol? { get set }
     var interactor : ActivityPresentorToInterectorProtocol? { get set }
-    var router : ActivityPresenterToRouterProtocol? { get set }
+    var wireframe : ActivityPresenterToRouterProtocol? { get set }
+    
     func loadActivities()
+    func showActivityDetail(forPost activity: Activities)
 }
 
 protocol ActivityPresenterToRouterProtocol: class{
-    static func createModule() -> UIViewController
+    static func createActivityModule() -> UIViewController
 }
 
 
