@@ -12,8 +12,12 @@
 		A88EEB9E2032CC9700FD288B /* Authentication.json in Resources */ = {isa = PBXBuildFile; fileRef = A88EEB9D2032CC9700FD288B /* Authentication.json */; };
 		A88EEBA22032CE0C00FD288B /* Appointment.json in Resources */ = {isa = PBXBuildFile; fileRef = A88EEBA12032CE0C00FD288B /* Appointment.json */; };
 		A8900641203303E900394BEE /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890063E203303E800394BEE /* Appointment.swift */; };
-		A8900642203303E900394BEE /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890063F203303E800394BEE /* BaseModel.swift */; };
+		A8900642203303E900394BEE /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890063F203303E800394BEE /* Activities.swift */; };
 		A8900643203303E900394BEE /* Claim.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8900640203303E800394BEE /* Claim.swift */; };
+		A89006452033060100394BEE /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89006442033060100394BEE /* Activity.storyboard */; };
+		A89006472033061600394BEE /* CommonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89006462033061600394BEE /* CommonTableViewCell.xib */; };
+		A89006492033066D00394BEE /* ActivityPresenterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89006482033066D00394BEE /* ActivityPresenterTableViewController.swift */; };
+		A890064D2033335E00394BEE /* CommonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890064C2033335E00394BEE /* CommonTableViewCell.swift */; };
 		B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F40202C846200BF7259 /* AppDelegate.swift */; };
 		B1060F43202C846200BF7259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F42202C846200BF7259 /* ViewController.swift */; };
 		B1060F46202C846200BF7259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1060F44202C846200BF7259 /* Main.storyboard */; };
@@ -35,7 +39,6 @@
 		B1555489202DABBC00C1F7C0 /* ActivityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555488202DABBC00C1F7C0 /* ActivityPresenter.swift */; };
 		B155548B202DABC900C1F7C0 /* ActivityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155548A202DABC900C1F7C0 /* ActivityInteractor.swift */; };
 		B155548D202DABDB00C1F7C0 /* ActivityRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155548C202DABDB00C1F7C0 /* ActivityRouter.swift */; };
-		B155548F202DABEF00C1F7C0 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155548E202DABEF00C1F7C0 /* ActivityViewController.swift */; };
 		B1555496202DAC3100C1F7C0 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555495202DAC3100C1F7C0 /* AppointmentViewController.swift */; };
 		B1555498202DAC4700C1F7C0 /* AppointmentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555497202DAC4700C1F7C0 /* AppointmentProtocols.swift */; };
 		B155549A202DAC5900C1F7C0 /* AppointmentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555499202DAC5900C1F7C0 /* AppointmentPresenter.swift */; };
@@ -73,8 +76,12 @@
 		A88EEB9D2032CC9700FD288B /* Authentication.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Authentication.json; sourceTree = "<group>"; };
 		A88EEBA12032CE0C00FD288B /* Appointment.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Appointment.json; sourceTree = "<group>"; };
 		A890063E203303E800394BEE /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
-		A890063F203303E800394BEE /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		A890063F203303E800394BEE /* Activities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
 		A8900640203303E800394BEE /* Claim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claim.swift; sourceTree = "<group>"; };
+		A89006442033060100394BEE /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		A89006462033061600394BEE /* CommonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonTableViewCell.xib; sourceTree = "<group>"; };
+		A89006482033066D00394BEE /* ActivityPresenterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPresenterTableViewController.swift; sourceTree = "<group>"; };
+		A890064C2033335E00394BEE /* CommonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTableViewCell.swift; sourceTree = "<group>"; };
 		B1060F3D202C846200BF7259 /* VIPERDesignSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDesignSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1060F40202C846200BF7259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1060F42202C846200BF7259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +109,6 @@
 		B1555488202DABBC00C1F7C0 /* ActivityPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPresenter.swift; sourceTree = "<group>"; };
 		B155548A202DABC900C1F7C0 /* ActivityInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInteractor.swift; sourceTree = "<group>"; };
 		B155548C202DABDB00C1F7C0 /* ActivityRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRouter.swift; sourceTree = "<group>"; };
-		B155548E202DABEF00C1F7C0 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		B1555495202DAC3100C1F7C0 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		B1555497202DAC4700C1F7C0 /* AppointmentProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentProtocols.swift; sourceTree = "<group>"; };
 		B1555499202DAC5900C1F7C0 /* AppointmentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentPresenter.swift; sourceTree = "<group>"; };
@@ -175,7 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				A890063E203303E800394BEE /* Appointment.swift */,
-				A890063F203303E800394BEE /* BaseModel.swift */,
+				A890063F203303E800394BEE /* Activities.swift */,
 				A8900640203303E800394BEE /* Claim.swift */,
 			);
 			path = Entities;
@@ -394,7 +400,10 @@
 		B1555484202DAB7E00C1F7C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B155548E202DABEF00C1F7C0 /* ActivityViewController.swift */,
+				A89006442033060100394BEE /* Activity.storyboard */,
+				A89006462033061600394BEE /* CommonTableViewCell.xib */,
+				A89006482033066D00394BEE /* ActivityPresenterTableViewController.swift */,
+				A890064C2033335E00394BEE /* CommonTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -598,12 +607,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A88EEB9C2032CA1000FD288B /* Claim.json in Resources */,
+				A89006472033061600394BEE /* CommonTableViewCell.xib in Resources */,
 				A88EEBA22032CE0C00FD288B /* Appointment.json in Resources */,
 				B15486AE2032E76A0062FE85 /* Login.storyboard in Resources */,
 				B1060F4E202C846200BF7259 /* LaunchScreen.storyboard in Resources */,
 				B1060F4B202C846200BF7259 /* Assets.xcassets in Resources */,
 				A88EEB9E2032CC9700FD288B /* Authentication.json in Resources */,
 				B1060F46202C846200BF7259 /* Main.storyboard in Resources */,
+				A89006452033060100394BEE /* Activity.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +700,7 @@
 				B155548D202DABDB00C1F7C0 /* ActivityRouter.swift in Sources */,
 				B155547A202DAB1200C1F7C0 /* LoginViewController.swift in Sources */,
 				B1555496202DAC3100C1F7C0 /* AppointmentViewController.swift in Sources */,
+				A890064D2033335E00394BEE /* CommonTableViewCell.swift in Sources */,
 				B15554A5202DACCB00C1F7C0 /* ClaimProtocols.swift in Sources */,
 				B15554AB202DACEE00C1F7C0 /* ClaimRouter.swift in Sources */,
 				B15486AA2032C5E60062FE85 /* DataSourceManager+AppSpecific.swift in Sources */,
@@ -699,16 +711,16 @@
 				B1555478202DAB0000C1F7C0 /* LoginProtocols.swift in Sources */,
 				B155547E202DAB4800C1F7C0 /* LoginInteractor.swift in Sources */,
 				B15554A9202DACE300C1F7C0 /* ClaimInteractor.swift in Sources */,
-				A8900642203303E900394BEE /* BaseModel.swift in Sources */,
+				A8900642203303E900394BEE /* Activities.swift in Sources */,
 				B1555489202DABBC00C1F7C0 /* ActivityPresenter.swift in Sources */,
 				B15554A7202DACD600C1F7C0 /* ClaimPresenter.swift in Sources */,
 				A8900641203303E900394BEE /* Appointment.swift in Sources */,
 				B1555498202DAC4700C1F7C0 /* AppointmentProtocols.swift in Sources */,
 				B1555480202DAB5400C1F7C0 /* LoginRouter.swift in Sources */,
 				B1060F49202C846200BF7259 /* VIPERDesignSample.xcdatamodeld in Sources */,
-				B155548F202DABEF00C1F7C0 /* ActivityViewController.swift in Sources */,
 				B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */,
 				B155548B202DABC900C1F7C0 /* ActivityInteractor.swift in Sources */,
+				A89006492033066D00394BEE /* ActivityPresenterTableViewController.swift in Sources */,
 				B155549E202DAC7000C1F7C0 /* AppointmentRouter.swift in Sources */,
 				A8900643203303E900394BEE /* Claim.swift in Sources */,
 				B15486B12032FA760062FE85 /* UIViewController+Ext.swift in Sources */,
