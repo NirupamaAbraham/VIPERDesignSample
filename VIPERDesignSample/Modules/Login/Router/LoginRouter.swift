@@ -29,7 +29,17 @@ class LoginRouter: LoginPresenterToRouterProtocol {
         return nil
     }
     
-    func showActivityModule() {
+    func showActivityModule(from view: LoginPresenterToViewProtocol) {
         
+        let activityNavigationVC = ActivityRouter.createActivityModule()
+        
+        if let sourceView = view as? UIViewController {
+            
+            
+            sourceView.present(activityNavigationVC.childViewControllers.first!, animated: true, completion: nil)
+
+        }
     }
+    
+   
 }

@@ -33,5 +33,5 @@ protocol LoginInteractorToPresenterProtocol: class {
 
 protocol LoginPresenterToRouterProtocol: class {
     static func createLoginModule() -> UIViewController?
-    func showActivityModule()
+    func showActivityModule(from view : LoginPresenterToViewProtocol)
 }

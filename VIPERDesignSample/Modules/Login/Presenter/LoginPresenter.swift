@@ -21,7 +21,7 @@ class LoginPresenter: LoginViewToPresenterProtocol {
 
 extension LoginPresenter: LoginInteractorToPresenterProtocol {
     func authenticationSuccessful() {
-        router?.showActivityModule()
+        router?.showActivityModule(from: view!)
     }
     
     func authenticationFailed(withError error: NSError) {
