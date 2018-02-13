@@ -28,17 +28,16 @@ func configureLocalServer() {
     // enable it as the local server in the networking layer
     DataSourceManager.localServerDelegate = server
     
-    
     // Authenticate:
-    server.post("/authenticate", handler: { (request, parameters) -> Response in
-        return Response(filename: "authentication", ofType: "json")
+    server.get("/authenticate", handler: { (request, parameters) -> Response in
+        return Response(filename: "Authentication", ofType: "json")
     })
     
     
     // Claim Files
     server.get("/claimsadjust_claimFile/claim_files?adjusterId={adjuster_id}", handler: { (request, parameters) -> Response in
         if let adjusterId = parameters["adjuster_id"] {
-            return Response(filename: "adjuster.\(adjusterId)", ofType: "json")
+            return Response(filename: "Claim", ofType: "json")
         }
         return Response()
     })
@@ -46,7 +45,7 @@ func configureLocalServer() {
     //Appointments
     server.get("/claimsadjust_appointment/appointments?adjusterId={adjuster_id}", handler: { (request, parameters) -> Response in
         if let adjusterId = parameters["adjuster_id"] {
-            return Response(filename: "adjuster.\(adjusterId).activities", ofType: "json")
+            return Response(filename: "Appointment", ofType: "json")
         }
         return Response()
     })

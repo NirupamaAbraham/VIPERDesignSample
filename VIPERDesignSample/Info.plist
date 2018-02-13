@@ -28,8 +28,6 @@
 	<dict>
 		<key>baseURL</key>
 		<string>http://dev9.mobilefirstforios.com:9080/Insurance/</string>
-		<key>Paths</key>
-		<dict/>
 		<key>Authentication</key>
 		<string>/authenticate</string>
 		<key>GetClaimFiles</key>
