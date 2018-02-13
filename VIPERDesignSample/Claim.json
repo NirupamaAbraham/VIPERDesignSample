@@ -1,0 +1,28 @@
+{
+    "response": [{
+                 "claimFileNumber": "10002",
+                 "claimantName": "Nirupama",
+                 "claimDescription": "Huge damage due to hurricane",
+                 "Peril": "Hurricane"
+                 },
+                 {
+                 "claimFileNumber": "10003",
+                 "claimantName": "Swayambhu",
+                 "claimDescription": "Water logged due to flood",
+                 "Peril": "Flood"
+                 
+                 },
+                 {
+                 "claimFileNumber": "10004",
+                 "claimantName": "Mohan",
+                 "claimDescription": "Hit by a vehicle",
+                 "Peril": "Collision with MotorVehicle"
+                 },
+                 {
+                 "claimFileNumber": "10005",
+                 "claimantName": "Kirthika",
+                 "claimDescription": "Roof has been damaged by hail",
+                 "Peril": "Hail"
+                 }
+                 ]
+}

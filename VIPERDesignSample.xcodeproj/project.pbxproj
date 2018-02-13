@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A88EEB9C2032CA1000FD288B /* Claim.json in Resources */ = {isa = PBXBuildFile; fileRef = A88EEB9B2032CA1000FD288B /* Claim.json */; };
+		A88EEB9E2032CC9700FD288B /* Authentication.json in Resources */ = {isa = PBXBuildFile; fileRef = A88EEB9D2032CC9700FD288B /* Authentication.json */; };
+		A88EEBA22032CE0C00FD288B /* Appointment.json in Resources */ = {isa = PBXBuildFile; fileRef = A88EEBA12032CE0C00FD288B /* Appointment.json */; };
 		B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F40202C846200BF7259 /* AppDelegate.swift */; };
 		B1060F43202C846200BF7259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1060F42202C846200BF7259 /* ViewController.swift */; };
 		B1060F46202C846200BF7259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1060F44202C846200BF7259 /* Main.storyboard */; };
@@ -56,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A88EEB9B2032CA1000FD288B /* Claim.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Claim.json; sourceTree = "<group>"; };
+		A88EEB9D2032CC9700FD288B /* Authentication.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Authentication.json; sourceTree = "<group>"; };
+		A88EEBA12032CE0C00FD288B /* Appointment.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Appointment.json; sourceTree = "<group>"; };
 		B1060F3D202C846200BF7259 /* VIPERDesignSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDesignSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1060F40202C846200BF7259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1060F42202C846200BF7259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +156,9 @@
 				B1060F4C202C846200BF7259 /* LaunchScreen.storyboard */,
 				B1060F4F202C846200BF7259 /* Info.plist */,
 				B1060F47202C846200BF7259 /* VIPERDesignSample.xcdatamodeld */,
+				A88EEB9B2032CA1000FD288B /* Claim.json */,
+				A88EEB9D2032CC9700FD288B /* Authentication.json */,
+				A88EEBA12032CE0C00FD288B /* Appointment.json */,
 			);
 			path = VIPERDesignSample;
 			sourceTree = "<group>";
@@ -506,8 +515,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88EEB9C2032CA1000FD288B /* Claim.json in Resources */,
+				A88EEBA22032CE0C00FD288B /* Appointment.json in Resources */,
 				B1060F4E202C846200BF7259 /* LaunchScreen.storyboard in Resources */,
 				B1060F4B202C846200BF7259 /* Assets.xcassets in Resources */,
+				A88EEB9E2032CC9700FD288B /* Authentication.json in Resources */,
 				B1060F46202C846200BF7259 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
