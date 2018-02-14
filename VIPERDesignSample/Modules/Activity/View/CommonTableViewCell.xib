@@ -24,18 +24,6 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qc9-g6-JSU">
-                        <rect key="frame" x="358" y="45" width="42" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQj-h3-806">
-                        <rect key="frame" x="30" y="45" width="42" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUF-rn-3Ki">
                         <rect key="frame" x="358" y="11" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -44,21 +32,14 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="rQj-h3-806" firstAttribute="top" secondItem="PAZ-D2-T0d" secondAttribute="bottom" constant="13" id="1bC-YR-bdV"/>
                     <constraint firstItem="PAZ-D2-T0d" firstAttribute="top" secondItem="Fu8-Fc-i3j" secondAttribute="top" constant="11" id="4al-62-2sA"/>
-                    <constraint firstItem="sUF-rn-3Ki" firstAttribute="trailing" secondItem="qc9-g6-JSU" secondAttribute="trailing" id="9Vg-o0-LOX"/>
-                    <constraint firstAttribute="bottom" secondItem="rQj-h3-806" secondAttribute="bottom" constant="24.5" id="Cq2-sK-oQh"/>
-                    <constraint firstItem="PAZ-D2-T0d" firstAttribute="leading" secondItem="rQj-h3-806" secondAttribute="leading" id="Knb-P6-jQf"/>
                     <constraint firstItem="sUF-rn-3Ki" firstAttribute="bottom" secondItem="PAZ-D2-T0d" secondAttribute="bottom" id="RgM-lG-CJT"/>
                     <constraint firstItem="PAZ-D2-T0d" firstAttribute="leading" secondItem="Fu8-Fc-i3j" secondAttribute="leading" constant="30" id="ZBn-0r-dxc"/>
                     <constraint firstAttribute="trailing" secondItem="sUF-rn-3Ki" secondAttribute="trailing" constant="32" id="bp4-ep-zcn"/>
-                    <constraint firstItem="qc9-g6-JSU" firstAttribute="bottom" secondItem="rQj-h3-806" secondAttribute="bottom" id="ohp-Yv-3sb"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="descriptionLabel" destination="rQj-h3-806" id="Z31-rQ-EQF"/>
                 <outlet property="nameLabel" destination="PAZ-D2-T0d" id="bON-TD-xWj"/>
-                <outlet property="peril_timeLabel" destination="qc9-g6-JSU" id="Xw9-lS-vJR"/>
                 <outlet property="titleLabel" destination="sUF-rn-3Ki" id="xIr-bM-toI"/>
             </connections>
             <point key="canvasLocation" x="89" y="-249.5"/>

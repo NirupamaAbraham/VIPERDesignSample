@@ -11,9 +11,7 @@ import UIKit
 class CommonTableViewCell: UITableViewCell {
 
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var peril_timeLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -29,17 +27,14 @@ class CommonTableViewCell: UITableViewCell {
     func configureClaimCell(activity:Claim)
     {
         nameLabel.text = activity.claimantName
-        descriptionLabel.text = activity.descriptionString
         titleLabel.text = activity.claimFileNumber
-        peril_timeLabel.text = activity.peril
+       
         
     }
     
     func configureAppointmentCell(activity : Appointment) {
-        nameLabel.text = activity.claimantName
-        descriptionLabel.text = activity.descriptionString
-        titleLabel.text = activity.appointmentType
-        peril_timeLabel.text = activity.date
+        nameLabel.text = activity.appointmentType
+        titleLabel.text = activity.date
     }
 
 }
