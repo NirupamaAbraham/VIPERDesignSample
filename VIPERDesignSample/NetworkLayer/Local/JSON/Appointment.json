@@ -1,26 +1,26 @@
 {
     "response": [{
                  "appointmentType": "Gather Photos",
-                 "Date": "2018-02-13",
-                 "Description": "Visit the accident site",
+                 "date": "2018-02-13",
+                 "description": "Visit the accident site",
                  "claimantName": "Nirupama"
                  },
                  {
-                 "appointmentType": "Meet with Attorney",
-                 "Date": "2018-02-08",
-                 "Description": "Meeting with Mr. Jones the district attorney",
+                 "appointmentType": "Meet with District Attorney",
+                 "date": "2018-02-08",
+                 "description": "Meet with Mr. Jones",
                  "claimantName": "Swayambhu"
                  },
                  {
                  "appointmentType": "Visit Accident Scene",
-                 "Date": "2018-02-03",
-                 "Description": "Visit the accident site",
+                 "date": "2018-02-03",
+                 "description": "Visit the accident site",
                  "claimantName": "Mohan"
                  },
                  {
                  "appointmentType": "Gather Documentation",
-                 "Date": "2018-01-28",
-                 "Description": "Get the Required documentation for the claim",
+                 "date": "2018-01-28",
+                 "description": "Get the Required documentation",
                  "claimantName": "Kirthika"
                  }
                  ]
