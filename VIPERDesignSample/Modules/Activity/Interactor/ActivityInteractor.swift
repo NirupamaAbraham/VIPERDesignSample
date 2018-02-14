@@ -10,7 +10,7 @@ import Foundation
 
 class ActivityInteractor : ActivityPresentorToInterectorProtocol {
     
-    var presenter: ActivityInterectorToPresenterProtocol?
+    weak var presenter: ActivityInterectorToPresenterProtocol?
     
     func getActivities() {
         Request.getClaimFiles().execute().validate().responseJSON {

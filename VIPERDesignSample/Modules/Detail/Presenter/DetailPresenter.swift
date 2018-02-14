@@ -21,10 +21,10 @@ class DetailPresenter: DetailViewToPresenterProtocol {
     func createDetailViewModel() {
         var detailModel: DetailViewModel?
         if let activity = self.activity {
-            if let model = activity as? Appointment {
+            if let _ = activity as? Appointment {
                 detailModel = DetailViewModel.appointment(activity)
             }
-            else if let model = activity as? Claim {
+            else if let _ = activity as? Claim {
                 detailModel = DetailViewModel.claim(activity)
             }
             self.view?.showDetails(forModel: detailModel)

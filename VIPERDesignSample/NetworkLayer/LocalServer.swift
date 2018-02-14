@@ -36,18 +36,16 @@ func configureLocalServer() {
     
     // Claim Files
     server.get("/claimsadjust_claimFile/claim_files", handler: { (request, parameters) -> Response in
-       // if let adjusterId = parameters["adjuster_id"] {
+       
             return Response(filename: "Claim", ofType: "json")
-       // }
-        return Response()
+    
     })
 
     //Appointments
     server.get("/claimsadjust_appointment/appointments", handler: { (request, parameters) -> Response in
-       // if let adjusterId = parameters["adjuster_id"] {
+      
             return Response(filename: "Appointment", ofType: "json")
-       // }
-        return Response()
+      
     })
     
 }

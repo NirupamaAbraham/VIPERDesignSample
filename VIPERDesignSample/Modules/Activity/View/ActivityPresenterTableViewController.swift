@@ -26,7 +26,7 @@ class ActivityPresenterTableViewController: UITableViewController {
         let activitiesNib = UINib(nibName: "CommonTableViewCell", bundle: nil)
         self.tableView.register(activitiesNib, forCellReuseIdentifier: commonTableCellIdentifier)
         
-        
+        self.tableView.tableFooterView = UIView()
         presenter?.loadActivities()
     }
 
@@ -57,9 +57,9 @@ class ActivityPresenterTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: commonTableCellIdentifier, for: indexPath) as? CommonTableViewCell
 
         if indexPath.section == 0 {
-        cell?.configureClaimCell(activity: claimsList[indexPath.row] as! Claim)
+            cell?.configureClaimCell(activity: claimsList[indexPath.row])
         } else {
-            cell?.configureAppointmentCell(activity: appointmentList[indexPath.row] as! Appointment)
+            cell?.configureAppointmentCell(activity: appointmentList[indexPath.row])
         }
         // Configure the cell...
 

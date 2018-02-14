@@ -61,9 +61,9 @@ enum Request {
         }
         
         // check for challenge handler
-        request.challengeHandler { () -> Void in
+//        request.challengeHandler { () -> Void in
 //            self.authenticationController?.signOut()
-        }
+//        }
         
         return request
         
@@ -104,7 +104,7 @@ enum Request {
     }
     
     fileprivate var headers: [String: String] {
-        var headers: [String: String] = [:]
+        let headers: [String: String] = [:]
         
         // add the cached authorization header
 //        if let authorizationHeader = self.authenticationController?.authorizationHeader {

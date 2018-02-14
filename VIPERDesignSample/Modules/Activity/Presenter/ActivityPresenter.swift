@@ -10,7 +10,7 @@ import Foundation
 
 class ActivityPresenter : ActivityViewToPresenterProtocol {
     
-    var view: ActivityPresenterToViewProtocol?
+    weak var view: ActivityPresenterToViewProtocol?
     var interactor: ActivityPresentorToInterectorProtocol?
     var wireframe: ActivityPresenterToRouterProtocol?
     

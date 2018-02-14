@@ -13,6 +13,7 @@ protocol DetailModel {
     var claimantNameTuple: (title: String, subTitle: String) { get }
     var detailTuple: (title: String, subTitle: String) { get }
     var descTuple: (title: String, subTitle: String) { get }
+    var navigationTitle : String { get }
 }
 
 enum DetailViewModel {
@@ -78,6 +79,21 @@ extension DetailViewModel: DetailModel {
         }
         return (title, subTitle)
     }
+    
+    var navigationTitle : String {
+        var navigationTitle = ""
+       
+        switch self {
+        case .claim(let activity):
+             if let claim = activity as? Claim {
+             navigationTitle = "ClaimFileNumber " + claim.claimFileNumber
+            }
+        case .appointment( _):
+            navigationTitle = "Appointment"
+            
+        }
+        return navigationTitle
+    }
 }
 
 class DetailViewController: UIViewController {
@@ -109,7 +125,9 @@ class DetailViewController: UIViewController {
 
 extension DetailViewController: DetailPresenterToViewProtocol {
     func showDetails(forModel model: DetailViewModel?) {
+       
         if let model = model {
+            self.navigationItem.title = model.navigationTitle
             self.nameTitleLabel.text = model.nameTuple.title
             self.nameSubtitleLabel.text = model.nameTuple.subTitle
             self.detailTitleLabel.text = model.detailTuple.title
