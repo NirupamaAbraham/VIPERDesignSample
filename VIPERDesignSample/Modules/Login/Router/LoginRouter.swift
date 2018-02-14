@@ -33,11 +33,11 @@ class LoginRouter: LoginPresenterToRouterProtocol {
         
         let activityNavigationVC = ActivityRouter.createActivityModule()
         
-        if let sourceView = view as? UIViewController, let activityVC = activityNavigationVC.childViewControllers.first {
+        if let sourceView = view as? UIViewController {
             
-            sourceView.addChildViewController(activityVC)
-            sourceView.view.addSubview(activityVC.view)
-            activityVC.didMove(toParentViewController: sourceView)
+            sourceView.addChildViewController(activityNavigationVC)
+            sourceView.view.addSubview(activityNavigationVC.view)
+            activityNavigationVC.didMove(toParentViewController: sourceView)
 
         }
     }
