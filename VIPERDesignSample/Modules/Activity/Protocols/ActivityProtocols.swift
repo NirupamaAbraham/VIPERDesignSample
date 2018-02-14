@@ -19,7 +19,7 @@ protocol ActivityPresenterToViewProtocol: class {
 protocol ActivityInterectorToPresenterProtocol: class {
     
     func claimsFetched(claimData: [Claim])
-    func appointmentsFetched()
+    func appointmentsFetched(appointmentData: [Appointment])
     func claimsFetchFailed(withError error: NSError)
     func appointmentsFetchedFailed(withError error: NSError)
 }

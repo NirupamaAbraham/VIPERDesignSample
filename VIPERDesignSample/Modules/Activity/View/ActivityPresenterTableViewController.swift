@@ -11,7 +11,8 @@ import UIKit
 class ActivityPresenterTableViewController: UITableViewController {
 
     var presenter : ActivityViewToPresenterProtocol?
-    var activitiesList: [Activities] = []
+    var claimsList: [Claim] = []
+    var appointmentList: [Appointment] = []
     private var commonTableCellIdentifier = "commonTableCellIdentifier"
     
     override func viewDidLoad() {
@@ -38,27 +39,39 @@ class ActivityPresenterTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-       
-        return activitiesList.count
+        if section == 0 {
+            return claimsList.count
+        } else {
+            return appointmentList.count
+        }
+        
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: commonTableCellIdentifier, for: indexPath) as? CommonTableViewCell
 
-        cell?.configureCell(activity: activitiesList[indexPath.row] as! Claim)
+        if indexPath.section == 0 {
+        cell?.configureClaimCell(activity: claimsList[indexPath.row] as! Claim)
+        } else {
+            cell?.configureAppointmentCell(activity: appointmentList[indexPath.row] as! Appointment)
+        }
         // Configure the cell...
 
         return cell!
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Claim"
+        if section == 0 {
+             return "Claim"
+        } else {
+            return "Appointment"
+        }
     }
     
 
@@ -112,12 +125,13 @@ class ActivityPresenterTableViewController: UITableViewController {
 extension ActivityPresenterTableViewController : ActivityPresenterToViewProtocol {
     
     func showClaim(claimArray : [Claim]) {
-        activitiesList = claimArray
-        tableView.reloadData()
+        claimsList = claimArray
+        tableView.reloadSections([0], with: .none)
         
     }
     func showAppointment(appointmentArray: [Appointment]) {
-        
-    }
+        appointmentList = appointmentArray
+        tableView.reloadSections([1], with: .none)
 
+}
 }

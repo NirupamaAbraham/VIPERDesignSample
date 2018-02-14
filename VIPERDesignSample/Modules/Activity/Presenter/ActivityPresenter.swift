@@ -27,17 +27,20 @@ class ActivityPresenter : ActivityViewToPresenterProtocol {
 
 extension ActivityPresenter : ActivityInterectorToPresenterProtocol {
     
+    
+    
     func claimsFetched(claimData: [Claim]) {
         view?.showClaim(claimArray: claimData)
+    }
+    
+    func appointmentsFetched(appointmentData: [Appointment]) {
+        view?.showAppointment(appointmentArray: appointmentData)
     }
     
     func claimsFetchFailed(withError error: NSError) {
         
     }
-    
-    func appointmentsFetched() {
-        
-    }
+
     
     func appointmentsFetchedFailed(withError error: NSError) {
         

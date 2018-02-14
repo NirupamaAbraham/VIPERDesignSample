@@ -26,18 +26,20 @@ class CommonTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configureCell(activity:Claim)
+    func configureClaimCell(activity:Claim)
     {
         nameLabel.text = activity.claimantName
         descriptionLabel.text = activity.descriptionString
         titleLabel.text = activity.claimFileNumber
         peril_timeLabel.text = activity.peril
-//        if activity is Claim {
-//
-//        } else {
-//
-//        }
         
+    }
+    
+    func configureAppointmentCell(activity : Appointment) {
+        nameLabel.text = activity.claimantName
+        descriptionLabel.text = activity.descriptionString
+        titleLabel.text = activity.appointmentType
+        peril_timeLabel.text = activity.date
     }
 
 }
