@@ -255,10 +255,10 @@
 		B15486C0203450BD0062FE85 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				B1555490202DABF500C1F7C0 /* Router */,
-				B15486C3203451000062FE85 /* Presenter */,
-				B15486C2203450E30062FE85 /* View */,
 				B15486C1203450D90062FE85 /* Protocol */,
+				B15486C2203450E30062FE85 /* View */,
+				B15486C3203451000062FE85 /* Presenter */,
+				B1555490202DABF500C1F7C0 /* Router */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
