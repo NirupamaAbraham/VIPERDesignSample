@@ -30,6 +30,10 @@
 		B15486AC2032C6B20062FE85 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15486AB2032C6B10062FE85 /* Request.swift */; };
 		B15486AE2032E76A0062FE85 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15486AD2032E76A0062FE85 /* Login.storyboard */; };
 		B15486B12032FA760062FE85 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15486B02032FA760062FE85 /* UIViewController+Ext.swift */; };
+		B15486BE20344BF10062FE85 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15486BC20344BF10062FE85 /* DetailViewController.swift */; };
+		B15486BF20344BF10062FE85 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15486BD20344BF10062FE85 /* DetailViewController.xib */; };
+		B15486C5203451870062FE85 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15486C4203451870062FE85 /* DetailPresenter.swift */; };
+		B15486C7203451D80062FE85 /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15486C6203451D80062FE85 /* DetailProtocols.swift */; };
 		B1555478202DAB0000C1F7C0 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555477202DAB0000C1F7C0 /* LoginProtocols.swift */; };
 		B155547A202DAB1200C1F7C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555479202DAB1200C1F7C0 /* LoginViewController.swift */; };
 		B155547C202DAB3800C1F7C0 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155547B202DAB3800C1F7C0 /* LoginPresenter.swift */; };
@@ -39,16 +43,7 @@
 		B1555489202DABBC00C1F7C0 /* ActivityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555488202DABBC00C1F7C0 /* ActivityPresenter.swift */; };
 		B155548B202DABC900C1F7C0 /* ActivityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155548A202DABC900C1F7C0 /* ActivityInteractor.swift */; };
 		B155548D202DABDB00C1F7C0 /* ActivityRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155548C202DABDB00C1F7C0 /* ActivityRouter.swift */; };
-		B1555496202DAC3100C1F7C0 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555495202DAC3100C1F7C0 /* AppointmentViewController.swift */; };
-		B1555498202DAC4700C1F7C0 /* AppointmentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555497202DAC4700C1F7C0 /* AppointmentProtocols.swift */; };
-		B155549A202DAC5900C1F7C0 /* AppointmentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1555499202DAC5900C1F7C0 /* AppointmentPresenter.swift */; };
-		B155549C202DAC6600C1F7C0 /* AppointmentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155549B202DAC6600C1F7C0 /* AppointmentInteractor.swift */; };
-		B155549E202DAC7000C1F7C0 /* AppointmentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155549D202DAC7000C1F7C0 /* AppointmentRouter.swift */; };
-		B15554A5202DACCB00C1F7C0 /* ClaimProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554A4202DACCB00C1F7C0 /* ClaimProtocols.swift */; };
-		B15554A7202DACD600C1F7C0 /* ClaimPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554A6202DACD600C1F7C0 /* ClaimPresenter.swift */; };
-		B15554A9202DACE300C1F7C0 /* ClaimInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554A8202DACE300C1F7C0 /* ClaimInteractor.swift */; };
-		B15554AB202DACEE00C1F7C0 /* ClaimRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554AA202DACEE00C1F7C0 /* ClaimRouter.swift */; };
-		B15554AD202DACF800C1F7C0 /* ClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15554AC202DACF800C1F7C0 /* ClaimViewController.swift */; };
+		B155549E202DAC7000C1F7C0 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155549D202DAC7000C1F7C0 /* DetailRouter.swift */; };
 		B15555242032C3E800C1F7C0 /* LocalServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15555232032C3E800C1F7C0 /* LocalServer.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +95,10 @@
 		B15486AB2032C6B10062FE85 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		B15486AD2032E76A0062FE85 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B15486B02032FA760062FE85 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		B15486BC20344BF10062FE85 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B15486BD20344BF10062FE85 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		B15486C4203451870062FE85 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		B15486C6203451D80062FE85 /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
 		B1555477202DAB0000C1F7C0 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
 		B1555479202DAB1200C1F7C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B155547B202DAB3800C1F7C0 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
@@ -109,16 +108,7 @@
 		B1555488202DABBC00C1F7C0 /* ActivityPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPresenter.swift; sourceTree = "<group>"; };
 		B155548A202DABC900C1F7C0 /* ActivityInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInteractor.swift; sourceTree = "<group>"; };
 		B155548C202DABDB00C1F7C0 /* ActivityRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRouter.swift; sourceTree = "<group>"; };
-		B1555495202DAC3100C1F7C0 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
-		B1555497202DAC4700C1F7C0 /* AppointmentProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentProtocols.swift; sourceTree = "<group>"; };
-		B1555499202DAC5900C1F7C0 /* AppointmentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentPresenter.swift; sourceTree = "<group>"; };
-		B155549B202DAC6600C1F7C0 /* AppointmentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentInteractor.swift; sourceTree = "<group>"; };
-		B155549D202DAC7000C1F7C0 /* AppointmentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRouter.swift; sourceTree = "<group>"; };
-		B15554A4202DACCB00C1F7C0 /* ClaimProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimProtocols.swift; sourceTree = "<group>"; };
-		B15554A6202DACD600C1F7C0 /* ClaimPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimPresenter.swift; sourceTree = "<group>"; };
-		B15554A8202DACE300C1F7C0 /* ClaimInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimInteractor.swift; sourceTree = "<group>"; };
-		B15554AA202DACEE00C1F7C0 /* ClaimRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimRouter.swift; sourceTree = "<group>"; };
-		B15554AC202DACF800C1F7C0 /* ClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimViewController.swift; sourceTree = "<group>"; };
+		B155549D202DAC7000C1F7C0 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 		B15555232032C3E800C1F7C0 /* LocalServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalServer.swift; sourceTree = "<group>"; };
 		B15555262032C45E00C1F7C0 /* AKNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AKNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E735C2A2309D29B976B3B659 /* Pods-VIPERDesignSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERDesignSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIPERDesignSample/Pods-VIPERDesignSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -262,13 +252,48 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		B15486C0203450BD0062FE85 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B1555490202DABF500C1F7C0 /* Router */,
+				B15486C3203451000062FE85 /* Presenter */,
+				B15486C2203450E30062FE85 /* View */,
+				B15486C1203450D90062FE85 /* Protocol */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		B15486C1203450D90062FE85 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B15486C6203451D80062FE85 /* DetailProtocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B15486C2203450E30062FE85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B15486BC20344BF10062FE85 /* DetailViewController.swift */,
+				B15486BD20344BF10062FE85 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B15486C3203451000062FE85 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B15486C4203451870062FE85 /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		B1555469202DA97B00C1F7C0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				B1555470202DAA7400C1F7C0 /* Login */,
 				B155546F202DAA6A00C1F7C0 /* Activity */,
-				B155546E202DAA5F00C1F7C0 /* Appointment */,
-				B155546D202DAA5600C1F7C0 /* Claim */,
+				B15486C0203450BD0062FE85 /* Detail */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -282,30 +307,6 @@
 				B15486AB2032C6B10062FE85 /* Request.swift */,
 			);
 			path = NetworkLayer;
-			sourceTree = "<group>";
-		};
-		B155546D202DAA5600C1F7C0 /* Claim */ = {
-			isa = PBXGroup;
-			children = (
-				B15554A3202DACB800C1F7C0 /* Protocols */,
-				B15554A2202DACB000C1F7C0 /* View */,
-				B15554A1202DACAA00C1F7C0 /* Presenter */,
-				B15554A0202DACA100C1F7C0 /* Interactor */,
-				B155549F202DAC8900C1F7C0 /* Router */,
-			);
-			path = Claim;
-			sourceTree = "<group>";
-		};
-		B155546E202DAA5F00C1F7C0 /* Appointment */ = {
-			isa = PBXGroup;
-			children = (
-				B1555494202DAC1900C1F7C0 /* Protocols */,
-				B1555493202DAC1100C1F7C0 /* View */,
-				B1555492202DAC0B00C1F7C0 /* Presenter */,
-				B1555491202DAC0200C1F7C0 /* Interactor */,
-				B1555490202DABF500C1F7C0 /* Router */,
-			);
-			path = Appointment;
 			sourceTree = "<group>";
 		};
 		B155546F202DAA6A00C1F7C0 /* Activity */ = {
@@ -419,81 +420,9 @@
 		B1555490202DABF500C1F7C0 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				B155549D202DAC7000C1F7C0 /* AppointmentRouter.swift */,
+				B155549D202DAC7000C1F7C0 /* DetailRouter.swift */,
 			);
 			path = Router;
-			sourceTree = "<group>";
-		};
-		B1555491202DAC0200C1F7C0 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				B155549B202DAC6600C1F7C0 /* AppointmentInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		B1555492202DAC0B00C1F7C0 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				B1555499202DAC5900C1F7C0 /* AppointmentPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		B1555493202DAC1100C1F7C0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B1555495202DAC3100C1F7C0 /* AppointmentViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B1555494202DAC1900C1F7C0 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				B1555497202DAC4700C1F7C0 /* AppointmentProtocols.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		B155549F202DAC8900C1F7C0 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				B15554AA202DACEE00C1F7C0 /* ClaimRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		B15554A0202DACA100C1F7C0 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				B15554A8202DACE300C1F7C0 /* ClaimInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		B15554A1202DACAA00C1F7C0 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				B15554A6202DACD600C1F7C0 /* ClaimPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		B15554A2202DACB000C1F7C0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B15554AC202DACF800C1F7C0 /* ClaimViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B15554A3202DACB800C1F7C0 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				B15554A4202DACCB00C1F7C0 /* ClaimProtocols.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -613,6 +542,7 @@
 				B1060F4E202C846200BF7259 /* LaunchScreen.storyboard in Resources */,
 				B1060F4B202C846200BF7259 /* Assets.xcassets in Resources */,
 				A88EEB9E2032CC9700FD288B /* Authentication.json in Resources */,
+				B15486BF20344BF10062FE85 /* DetailViewController.xib in Resources */,
 				B1060F46202C846200BF7259 /* Main.storyboard in Resources */,
 				A89006452033060100394BEE /* Activity.storyboard in Resources */,
 			);
@@ -693,35 +623,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B155549C202DAC6600C1F7C0 /* AppointmentInteractor.swift in Sources */,
 				B15486AC2032C6B20062FE85 /* Request.swift in Sources */,
-				B155549A202DAC5900C1F7C0 /* AppointmentPresenter.swift in Sources */,
 				B1555487202DABAD00C1F7C0 /* ActivityProtocols.swift in Sources */,
 				B155548D202DABDB00C1F7C0 /* ActivityRouter.swift in Sources */,
 				B155547A202DAB1200C1F7C0 /* LoginViewController.swift in Sources */,
-				B1555496202DAC3100C1F7C0 /* AppointmentViewController.swift in Sources */,
+				B15486BE20344BF10062FE85 /* DetailViewController.swift in Sources */,
+				B15486C7203451D80062FE85 /* DetailProtocols.swift in Sources */,
 				A890064D2033335E00394BEE /* CommonTableViewCell.swift in Sources */,
-				B15554A5202DACCB00C1F7C0 /* ClaimProtocols.swift in Sources */,
-				B15554AB202DACEE00C1F7C0 /* ClaimRouter.swift in Sources */,
 				B15486AA2032C5E60062FE85 /* DataSourceManager+AppSpecific.swift in Sources */,
+				B15486C5203451870062FE85 /* DetailPresenter.swift in Sources */,
 				B1060F43202C846200BF7259 /* ViewController.swift in Sources */,
-				B15554AD202DACF800C1F7C0 /* ClaimViewController.swift in Sources */,
 				B15555242032C3E800C1F7C0 /* LocalServer.swift in Sources */,
 				B155547C202DAB3800C1F7C0 /* LoginPresenter.swift in Sources */,
 				B1555478202DAB0000C1F7C0 /* LoginProtocols.swift in Sources */,
 				B155547E202DAB4800C1F7C0 /* LoginInteractor.swift in Sources */,
-				B15554A9202DACE300C1F7C0 /* ClaimInteractor.swift in Sources */,
 				A8900642203303E900394BEE /* Activities.swift in Sources */,
 				B1555489202DABBC00C1F7C0 /* ActivityPresenter.swift in Sources */,
-				B15554A7202DACD600C1F7C0 /* ClaimPresenter.swift in Sources */,
 				A8900641203303E900394BEE /* Appointment.swift in Sources */,
-				B1555498202DAC4700C1F7C0 /* AppointmentProtocols.swift in Sources */,
 				B1555480202DAB5400C1F7C0 /* LoginRouter.swift in Sources */,
 				B1060F49202C846200BF7259 /* VIPERDesignSample.xcdatamodeld in Sources */,
 				B1060F41202C846200BF7259 /* AppDelegate.swift in Sources */,
 				B155548B202DABC900C1F7C0 /* ActivityInteractor.swift in Sources */,
 				A89006492033066D00394BEE /* ActivityPresenterTableViewController.swift in Sources */,
-				B155549E202DAC7000C1F7C0 /* AppointmentRouter.swift in Sources */,
+				B155549E202DAC7000C1F7C0 /* DetailRouter.swift in Sources */,
 				A8900643203303E900394BEE /* Claim.swift in Sources */,
 				B15486B12032FA760062FE85 /* UIViewController+Ext.swift in Sources */,
 			);

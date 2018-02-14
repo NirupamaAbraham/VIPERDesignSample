@@ -14,8 +14,10 @@ class ActivityPresenter : ActivityViewToPresenterProtocol {
     var interactor: ActivityPresentorToInterectorProtocol?
     var wireframe: ActivityPresenterToRouterProtocol?
     
-    func showActivityDetail(forPost activity: Activities) {
-        
+    func showActivityDetail(forActivity activity: Activities) {
+        if let view = self.view as? ActivityPresenterTableViewController {
+            self.wireframe?.showDetailView(forActivity: activity, inView: view)
+        }
     }
     
     

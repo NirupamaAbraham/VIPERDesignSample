@@ -35,11 +35,12 @@ protocol ActivityViewToPresenterProtocol: class {
     var wireframe : ActivityPresenterToRouterProtocol? { get set }
     
     func loadActivities()
-    func showActivityDetail(forPost activity: Activities)
+    func showActivityDetail(forActivity activity: Activities)
 }
 
 protocol ActivityPresenterToRouterProtocol: class{
     static func createActivityModule() -> UIViewController
+    func showDetailView(forActivity activity: Activities, inView view: UIViewController)
 }
 
 

@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 class ActivityRouter : ActivityPresenterToRouterProtocol {
-    
     class func createActivityModule() -> UIViewController {
         let activityStoryBoard = UIStoryboard(name: "Activity", bundle: nil)
         
@@ -33,4 +32,9 @@ class ActivityRouter : ActivityPresenterToRouterProtocol {
         return UIViewController()
     }
     
+    func showDetailView(forActivity activity: Activities, inView view: UIViewController) {
+        if let detailVC = DetailRouter.createDetailModule(forActivity: activity) {
+            view.navigationController?.pushViewController(detailVC, animated: true)
+        }
+    }
 }
