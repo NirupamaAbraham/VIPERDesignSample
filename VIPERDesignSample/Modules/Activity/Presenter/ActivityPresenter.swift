@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class ActivityPresenter : ActivityViewToPresenterProtocol {
     
@@ -23,6 +24,10 @@ class ActivityPresenter : ActivityViewToPresenterProtocol {
     
     func loadActivities() {
         interactor?.getActivities()
+    }
+    
+    func logout() {
+        wireframe?.showLoginScreen(view: (view as! UIViewController).parent!)
     }
     
 }

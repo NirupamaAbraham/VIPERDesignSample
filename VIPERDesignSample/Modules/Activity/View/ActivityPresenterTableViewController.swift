@@ -26,8 +26,15 @@ class ActivityPresenterTableViewController: UITableViewController {
         let activitiesNib = UINib(nibName: "CommonTableViewCell", bundle: nil)
         self.tableView.register(activitiesNib, forCellReuseIdentifier: commonTableCellIdentifier)
         
+        let leftbarButton = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(ActivityPresenterTableViewController.logoutButtontapped))
+        self.navigationItem.leftBarButtonItem = leftbarButton
+        
         self.tableView.tableFooterView = UIView()
         presenter?.loadActivities()
+    }
+    
+    @objc func logoutButtontapped() {
+        presenter?.logout()
     }
 
     override func didReceiveMemoryWarning() {

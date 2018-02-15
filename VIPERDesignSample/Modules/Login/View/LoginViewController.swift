@@ -37,6 +37,8 @@ class LoginViewController: UIViewController {
             self.showAlert(withMessage: "Please enter the password")
             return
         }
+        userNameTextField.resignFirstResponder()
+        passwordTextField.resignFirstResponder()
         presenter?.login(withUserName: userName, andPassword: password)
     }
     

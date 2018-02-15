@@ -37,4 +37,26 @@ class ActivityRouter : ActivityPresenterToRouterProtocol {
             view.navigationController?.pushViewController(detailVC, animated: true)
         }
     }
+    
+    func showLoginScreen(view: UIViewController) {
+        if view.childViewControllers.count > 0{
+            let viewControllers:[UIViewController] = view.childViewControllers
+            for viewContoller in viewControllers{
+                viewContoller.willMove(toParentViewController: nil)
+                viewContoller.view.removeFromSuperview()
+                viewContoller.removeFromParentViewController()
+            }
+        }
+        guard let parentView = view.parent else { return }
+        
+        if parentView.childViewControllers.count > 0 {
+            let viewControllers:[UIViewController] = parentView.childViewControllers
+            for viewContoller in viewControllers{
+                viewContoller.willMove(toParentViewController: nil)
+                viewContoller.view.removeFromSuperview()
+                viewContoller.removeFromParentViewController()
+            }
+            
+        }
+    }
 }
